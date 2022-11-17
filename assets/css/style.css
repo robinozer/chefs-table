@@ -22,3 +22,17 @@ h1, h2 {
     padding: 3%;
 }
 
+/* navigation menu */
+
+#navbar {
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 120%;
+    letter-spacing: 3px;
+}
+
+#navbar li {
+    float: right;
+    list-style-type: none;
+    margin-right: 3%;
+    margin-top:3%
+}
