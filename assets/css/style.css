@@ -9,8 +9,14 @@
 body {
     font-family: Maitree, sans-serif;
     font-weight: 400;
+    color: white;
 }
 
-h1 {
+h1, h2 {
     font-family: "Libre Franklin", sans-serif;
+    letter-spacing: 3px;
+}
+
+#name {
+    float: left;
 }
