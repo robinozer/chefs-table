@@ -9,7 +9,6 @@
 body {
     font-family: Maitree, sans-serif;
     font-weight: 400;
-    color: white;
 }
 
 h1, h2 {
@@ -19,14 +18,14 @@ h1, h2 {
 
 #name {
     float: left;
-    padding: 3%;
+    margin: 3%;
 }
 
 /* navigation menu */
 
 #navbar {
     font-family: "Libre Franklin", sans-serif;
-    font-size: 120%;
+    font-size: 115%;
     letter-spacing: 3px;
 }
 
@@ -37,8 +36,8 @@ h1, h2 {
 #navbar li {
     float: right;
     list-style-type: none;
+    padding-top: 3%;
     margin-right: 3%;
-    margin-top:3%
 }
 
 #navbar a {
@@ -46,11 +45,11 @@ h1, h2 {
 }
 
 #navbar a:hover {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid black;
 }
 
 .active {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid black;
 }
 
 /* hero image */
@@ -60,4 +59,25 @@ h1, h2 {
     height: 100%;
     width: 100%;
     background-position: center center;
+    max-height: 1200px;
+}
+
+/* Home page: our story */
+
+#middle-section {
+    height: 700px;
+}
+
+#story-left {
+    float: left;
+    width: 45%;
+    padding: 50px;
+    background-color: blue;
+}
+
+#story-right {
+    float: right;
+    width: 45%;
+    padding: 50px;
+    background-color: red;
 }
