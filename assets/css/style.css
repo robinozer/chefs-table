@@ -14,6 +14,7 @@ body {
 h1, h2 {
     font-family: "Libre Franklin", sans-serif;
     letter-spacing: 3px;
+    color: black;
 }
 
 #name {
@@ -42,6 +43,7 @@ h1, h2 {
 
 #navbar a {
     text-decoration: none;
+    color: black;
 }
 
 #navbar a:hover {
