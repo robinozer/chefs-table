@@ -30,11 +30,15 @@ h1, h2 {
     letter-spacing: 3px;
 }
 
+#navbar, #name {
+    line-height: 75px;
+}
+
 #navbar li {
     float: right;
     list-style-type: none;
     margin-right: 3%;
-    margin-top:3.2%
+    margin-top:3%
 }
 
 #navbar a {
