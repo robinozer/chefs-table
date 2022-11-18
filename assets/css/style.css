@@ -52,3 +52,12 @@ h1, h2 {
 .active {
     border-bottom: 1px solid white;
 }
+
+/* hero image */
+
+#hero-image {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+    background-position: center center;
+}
