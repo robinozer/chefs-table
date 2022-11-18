@@ -82,3 +82,30 @@ h1, h2 {
     width: 45%;
     padding: 50px;
 }
+
+/* footer */
+
+footer {
+    background-color: red;
+    padding: 2%;
+    height: 200px;
+    width: 100%;
+}
+
+#footer-contact {
+    width: 33%;
+    float: left;
+    list-style-type: none;
+}
+
+#footer-hours {
+    width: 33%;
+    list-style-type: none;
+    display: inline-block;
+}
+
+#footer-follow {
+    width: 33%;
+    list-style-type: none;
+    display: inline-block;
+}
