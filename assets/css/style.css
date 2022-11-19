@@ -101,6 +101,9 @@ footer {
 
 #footer-follow {
     width: 33%;
-    list-style-type: none;
     display: inline-block;
+}
+
+#footer-follow li, #footer-hours li, #footer-contact li {
+    list-style-type: none;
 }
