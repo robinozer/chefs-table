@@ -133,3 +133,10 @@ table {
     padding-right: 30px;
     margin: 0 auto;
 }
+
+/* Book a table form */
+
+.container {
+    border: 1px solid black;
+    background-color: yellow;
+}
