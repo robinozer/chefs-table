@@ -67,18 +67,12 @@ h1, h2 {
 
 /* Home page: our story */
 
-#middle-section {
-    height: 700px;
-}
-
 #story-left {
-    float: left;
     width: 45%;
     padding: 50px;
 }
 
 #story-right {
-    float: right;
     width: 45%;
     padding: 50px;
 }
@@ -90,6 +84,7 @@ footer {
     padding: 2%;
     height: 200px;
     width: 100%;
+    bottom: 0;
 }
 
 #footer-contact {
