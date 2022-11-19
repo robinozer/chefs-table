@@ -75,6 +75,8 @@ h1, h2 {
 #story-right {
     width: 45%;
     padding: 50px;
+    position: relative;
+    left: 45%;
 }
 
 /* footer */
@@ -113,7 +115,7 @@ footer {
     margin-bottom: 2%;
 }
 
-/* food menu */
+/* food and drinks menus */
 #food-menu, #drinks-menu {
     border: 1px solid black;
 }
@@ -129,4 +131,6 @@ th {
 table {
     padding-left: 30px;
     padding-right: 30px;
+    position: relative;
+    left: 35%;
 }
