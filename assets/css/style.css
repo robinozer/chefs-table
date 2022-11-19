@@ -112,3 +112,21 @@ footer {
     text-align: center;
     margin-bottom: 2%;
 }
+
+/* food menu */
+#food-menu {
+    border: 1px solid black;
+}
+
+th, td {
+    margin-bottom: 15px;
+}
+
+th {
+    padding-top: 18px;
+}
+
+table {
+    padding-left: 30px;
+    padding-right: 30px;
+}
