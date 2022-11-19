@@ -57,7 +57,7 @@ h1, h2 {
 /* hero image */
 
 #hero-image {
-    object-fit: contain;
+    object-fit: cover;
     height: 100%;
     width: 100%;
     background-position: center center;
@@ -81,9 +81,8 @@ h1, h2 {
 
 footer {
     background-color: red;
-    padding: 2%;
     height: 200px;
-    width: 100%;
+    padding: 2%;
     bottom: 0;
 }
 
