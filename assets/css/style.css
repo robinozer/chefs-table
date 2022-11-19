@@ -62,7 +62,7 @@ h1, h2 {
     width: 100%;
     background-position: center center;
     max-height: 1200px;
-    background: no-repeat;
+    background-repeat: no-repeat;
 }
 
 /* Home page: our story */
@@ -114,7 +114,7 @@ footer {
 }
 
 /* food menu */
-#food-menu {
+#food-menu, #drinks-menu {
     border: 1px solid black;
 }
 
