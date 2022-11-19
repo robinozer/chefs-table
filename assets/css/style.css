@@ -110,4 +110,5 @@ footer {
 #footer-follow p, #footer-hours p, #footer-contact p {
     font-size: 25px;
     text-align: center;
+    margin-bottom: 2%;
 }
