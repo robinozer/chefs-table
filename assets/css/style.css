@@ -139,4 +139,7 @@ table {
 .container {
     border: 1px solid black;
     background-color: yellow;
+    padding: 3%;
+    display: block;
+    box-sizing: border-box;
 }
