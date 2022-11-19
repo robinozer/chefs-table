@@ -131,6 +131,5 @@ th {
 table {
     padding-left: 30px;
     padding-right: 30px;
-    position: relative;
-    left: 35%;
+    margin: 0 auto;
 }
