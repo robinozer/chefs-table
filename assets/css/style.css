@@ -140,19 +140,15 @@ footer {
     width: 35%;
 }
 
-th, td {
-    margin-bottom: 15px;
-}
-
 th {
-    padding-top: 4%;
+    padding-top: 8%;
 }
 
 table {
     padding-left: 3%;
     padding-right: 3%;
     margin: 0 auto;
-    padding-bottom: 2%;
+    padding-bottom: 3%;
     padding-top: 2%;
 }
 
