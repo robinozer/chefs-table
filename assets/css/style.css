@@ -80,6 +80,19 @@ h1, h2 {
     left: 45%;
 }
 
+.story-left, .video1 {
+    display: inline-block;
+}
+
+.story-right, .video2 {
+    display: inline-block;
+}
+
+.video2 {
+    position: relative;
+    right: 45%;
+}
+
 /* footer */
 
 footer {
