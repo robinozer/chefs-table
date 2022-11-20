@@ -170,9 +170,7 @@ table {
 
 .container {
     width: 75%;
-    height: auto;
-    text-align: center;
-    margin-left: 25%;
+    height: 75%
     }
 
 .w3-input {
