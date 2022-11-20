@@ -47,26 +47,24 @@
     <section class="bookingform">
         <h2>Booking form</h2>
         <div class="container">
-            <form class="w3-input w3-border w3-round">
+            <form action="confirmation.html" method="GET">
                 <label for="fname">Name</label>
-                <input class="w3-input w3-border-0" type="text" id="fname" name="firstname" required="">
+                <input type="text" id="fname" name="firstname" required="">
 
                 <label for="phonenumber">Phone number</label>
-                <input class="w3-input w3-border-0" type="text" id="phonenumber" name="phone" required="">
+                <input type="text" id="phonenumber" name="phone" required="">
 
                 <label for="emailaddress">E-mail address</label>
-                <input class="w3-input w3-border-0" type="email" id="emailaddress" name="emailad" required="">
+                <input type="email" id="emailaddress" name="emailad" required="">
 
                 <label for="guestnumber">Adults</label>
-                <input class="w3-input w3-border-0" type="number" id="guestnumber" name="numberguests" min="1" max="8"
-                    step="1" required="">
+                <input type="number" id="guestnumber" name="numberguests" min="1" max="8" step="1" required="">
 
                 <label for="children">Children</label>
-                <input class="w3-input w3-border-0" type="number" id="children" name="numberchildren" min="0" max="8"
-                    step="1" required="">
+                <input type="number" id="children" name="numberchildren" min="0" max="8" step="1" required="">
 
                 <label for="visitingdate">Date</label>
-                <input class="w3-input w3-border-0" type="date" id="visitingdate" name="datevisit" value="2022-11-20" required="">
+                <input type="date" id="visitingdate" name="datevisit" value="2022-11-20" required="">
 
                 <label for="1600">16:00</label>
                 <input type="radio" name="dinnertime" id="1600" value="16:00" class="radio-button" required="">
@@ -87,10 +85,10 @@
                 <input type="radio" name="dinnertime" id="2100" value="21:00" class="radio-button" required="">
 
                 <label for="message">Message to us</label>
-                <input class="w3-input w3-border-0" type="text" id="message" name="messagetous">
+                <input type="text" id="message" name="messagetous">
 
                 <label for="submit"></label>
-                <input class="w3-input w3-border-0" type="submit" id="submit" name="submitform">
+                <input type="submit" id="submit" name="submitform">
             </form>
 
         </div>
