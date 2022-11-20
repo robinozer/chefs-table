@@ -168,16 +168,18 @@ table {
 
 /* Booking form */
 
-.container {
-    width: 75%;
-    height: 75%
-    }
 
-.w3-input {
-    width: 400px;
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid grey;
 }
 
 .bookingform {
+    width: 75%;
+    height: 1000px;
     padding: 3%;
-    background-color: burlywood;
+    background-color: rgba(208, 173, 128, 0.568);
 }
