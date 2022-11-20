@@ -11,7 +11,8 @@ body {
     font-weight: 400;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: "Libre Franklin", sans-serif;
     letter-spacing: 3px;
     color: black;
@@ -31,7 +32,8 @@ h1, h2 {
     letter-spacing: 2px;
 }
 
-.navbar, .name {
+.navbar,
+.name {
     line-height: 75px;
 }
 
@@ -80,17 +82,19 @@ h1, h2 {
     left: 45%;
 }
 
-.story-left, .video1 {
+.story-left,
+.video1 {
     display: inline-block;
 }
 
-.story-right, .video2 {
+.story-right,
+.video2 {
     display: inline-block;
 }
 
 .video2 {
     position: relative;
-    right: 45%;
+    right: 50%;
 }
 
 /* footer */
@@ -121,12 +125,16 @@ footer {
     padding-bottom: 1%;
 }
 
-.footer-follow li, .footer-hours li, .footer-contact li {
+.footer-follow li,
+.footer-hours li,
+.footer-contact li {
     list-style-type: none;
     text-align: center;
 }
 
-.footer-follow p, .footer-hours p, .footer-contact p {
+.footer-follow p,
+.footer-hours p,
+.footer-contact p {
     font-size: 25px;
     text-align: center;
     padding-bottom: 1.5%;
@@ -135,7 +143,8 @@ footer {
 
 /* food and drinks menus */
 
-.food-menu, .drinks-menu {
+.food-menu,
+.drinks-menu {
     border: 1px solid black;
     width: 35%;
 }
@@ -152,18 +161,19 @@ table {
     padding-top: 1%;
 }
 
-.ilcibo, .bevande {
+.ilcibo,
+.bevande {
     margin: 3.5%;
 }
 
 /* Booking form */
 
 .container {
-    border: 1px solid black;
-    padding: 3%;
-    display: block;
-    box-sizing: border-box;
-}
+    width: 75%;
+    height: auto;
+    text-align: center;
+    margin-left: 25%;
+    }
 
 .w3-input {
     width: 400px;
