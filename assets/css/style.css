@@ -270,6 +270,17 @@ label,
     .drinks-menu {
         width: 65%;
     }
+
+    footer li,
+    footer p {
+        font-size: 90%;
+    }
+
+    .footer-follow {
+        position: relative;
+        bottom: 2%;
+    }
+
 }
 
 /* Media queries to maintain good site navigation on tablet size screens up to 1300px wide and down*/
@@ -284,15 +295,35 @@ label,
         flex-direction: column;
     }
 
-    .navbar {   
+    .navbar {
         display: flex;
         flex-direction: row-reverse;
         justify-content: flex-end;
         padding-left: 2%;
-     }
+    }
 
     .food-menu,
     .drinks-menu {
         width: 95%;
+    }
+
+    .video1,
+    .video1 {
+        height: fit-content;
+        width: fit-content;
+    }
+
+    footer li,
+    footer p {
+        font-size: 90%;
+    }
+
+    .footer-follow {
+        position: relative;
+        bottom: 20%;
+    }
+
+    iframe {
+        width: 450px;
     }
 }
