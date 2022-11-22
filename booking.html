@@ -45,7 +45,7 @@
 
     <!---Main content-->
     <section class="bookingform">
-        <h2>Booking form</h2>
+        <h2 class="bookingtitle">Booking form</h2>
         <div>
         <div class="container">
             <form action="confirmation.html" method="GET" class="w3-input w3-border-0">
@@ -67,6 +67,8 @@
                 <label for="visitingdate">Date</label>
                 <input type="date" id="visitingdate" name="datevisit" value="2022-11-20" required="">
 
+                <p class="bookingtime">Time</p>
+
                 <input type="radio" name="dinnertime" id="1600" value="16:00" class="radio-button" required="" checked>
                 <label for="1600">16:00</label>
      
@@ -87,10 +89,10 @@
                 <br>
                 <label for="messaging">Message to us</label>
                 <br>
-                <textarea id="messaging" name="message" placeholder="Write something.."></textarea>
+                <textarea id="messaging" name="message" placeholder="Write something..." class="messagebox"></textarea>
 
                 <label for="submit"></label>
-                <input type="submit" id="submit" name="submitform">
+                <input type="submit" id="submit" name="Submit">
             </form>
         </div>
     </div>
