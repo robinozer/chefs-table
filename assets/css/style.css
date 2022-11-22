@@ -8,7 +8,6 @@
 
 body {
     font-family: Maitree, sans-serif;
-    font-weight: 400;
 }
 
 h1,
@@ -247,7 +246,7 @@ label,
 
 /* Media queries to maintain good site navigation on tablet size screens up to 1300px wide and down*/
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1000px) {
     .story-left {
         width: 75%;
         height: auto;
@@ -262,20 +261,20 @@ label,
         left: 0%;
     }
 
-    .video2, .video1 {
+    .video2,
+    .video1 {
         position: inherit;
     }
 }
 
 /* Media queries to maintain good site navigation on tablet size screens up to 1300px wide and down*/
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 650px) {
     .navbar {
-        clear: left;
+        clear: both;
         float: left;
-        margin-left: 2%;
-        margin-bottom: 2%;
-        line-height: 25px;
-        font-size: 90%;
+        line-height: 20px;
+        font-size: 100%;
+        margin-left: 0%;
     }
 }
