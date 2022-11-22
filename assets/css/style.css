@@ -101,9 +101,9 @@ h2 {
 /* footer */
 
 footer {
-    height: 120px;
+    height: 125px;
     bottom: 0;
-    border-top: 1px solid black;
+    border-top: 1px solid #bcbcbc;
 }
 
 .footer-contact {
@@ -136,7 +136,7 @@ footer {
 .footer-follow p,
 .footer-hours p,
 .footer-contact p {
-    font-size: 25px;
+    font-size: 130%;
     text-align: center;
     padding-bottom: 1.5%;
     padding-top: 1%;
