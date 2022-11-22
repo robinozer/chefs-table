@@ -224,10 +224,10 @@ label, .bookingtime {
     width: 10%;
 }
 
-/* Booking confirmation redirect page, styling the text on top of the hero image */
+/* Booking confirmation redirect page: style for the text on top of the hero image */
 
 .confirmationtext h2, .confirmationtext h3 {
-    padding: 1.5%;
+    padding: 2%;
 }
 
 .confirmationtext {
@@ -237,9 +237,8 @@ label, .bookingtime {
     width: 45%;
     height: auto;
     background-color: rgba(246, 241, 241, 0.7);
-
     bottom: 60%;
     right: 25%;
-
     position: absolute;
+    border-radius: 25px;
 }
