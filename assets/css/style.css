@@ -180,7 +180,7 @@ input {
 
 .bookingform {
     width: 75%;
-    height: 1000px;
+    height: auto;
     padding: 3%;
     background-color: rgba(208, 173, 128, 0.568);
     position: relative;
@@ -212,4 +212,8 @@ label, .bookingtime {
 .bookingtitle {
     font-family: "Libre Franklin", sans-serif;
     padding-bottom: 2%;
+}
+
+.adultchildren {
+    width: 10%;
 }
