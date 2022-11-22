@@ -244,7 +244,7 @@ label,
     border-radius: 25px;
 }
 
-/* Media queries to maintain good site navigation on tablet size screens up to 1300px wide and down*/
+/* Media queries to maintain good site navigation on medium size tablet screens up to 1200px wide and down*/
 
 @media screen and (max-width: 1200px) {
     .story-left {
@@ -286,7 +286,7 @@ label,
 
 }
 
-/* Media queries to maintain good site navigation on tablet size screens up to 1300px wide and down*/
+/* Media queries to maintain good site navigation on mobile size screens up to 650px wide and down*/
 
 @media screen and (max-width: 650px) {
     .navbar li {
