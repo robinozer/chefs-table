@@ -72,12 +72,10 @@ h2 {
 
 .story-left {
     width: 45%;
-    padding: 50px;
 }
 
 .story-right {
     width: 45%;
-    padding: 50px;
     position: relative;
     left: 45%;
 }
@@ -85,17 +83,20 @@ h2 {
 .story-left,
 .video1 {
     display: inline-block;
+    padding: 3%;
 }
 
 .story-right,
 .video2 {
     display: inline-block;
+    padding: 3%;
 }
 
 .video2 {
     position: relative;
     right: 50%;
 }
+
 
 /* footer */
 
