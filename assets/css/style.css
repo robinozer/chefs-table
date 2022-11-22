@@ -15,7 +15,7 @@ h1,
 h2 {
     font-family: "Libre Franklin", sans-serif;
     letter-spacing: 3px;
-    color: black;
+    color: #000000;
 }
 
 .name {
@@ -46,7 +46,7 @@ h2 {
 
 .navbar a {
     text-decoration: none;
-    color: black;
+    color: #000000;
 }
 
 .navbar a:hover {
@@ -157,7 +157,7 @@ th {
 table {
     padding-left: 3%;
     padding-right: 3%;
-    margin: 0 auto;
+    margin: 0% auto;
     padding-bottom: 3%;
     padding-top: 1%;
 }
@@ -183,9 +183,10 @@ input {
     width: 75%;
     height: auto;
     padding: 3%;
-    background-color: rgba(208, 173, 128, 0.568);
+    background-color: #d0ad8091;
     position: relative;
-    left: 10%;
+    left: 8%;
+    margin: 2%;
 }
 
 .radio-button {
@@ -207,7 +208,7 @@ input {
 label, .bookingtime {
     font-family: "Libre Franklin", sans-serif;
     font-size: 18px;
-    color: black;
+    color: #000000;
 }
 
 .bookingtitle {
