@@ -205,7 +205,8 @@ input {
     font-size: 16px;
 }
 
-label, .bookingtime {
+label,
+.bookingtime {
     font-family: "Libre Franklin", sans-serif;
     font-size: 18px;
     color: #000000;
@@ -226,12 +227,13 @@ label, .bookingtime {
 
 /* Booking confirmation redirect page: style for the text on top of the hero image */
 
-.confirmationtext h2, .confirmationtext h3 {
+.confirmationtext h2,
+.confirmationtext h3 {
     padding: 2%;
 }
 
 .confirmationtext {
-    font-size: 100%;    
+    font-size: 100%;
     font-family: "Libre Franklin", sans-serif;
     color: #000000;
     width: 45%;
@@ -241,4 +243,26 @@ label, .bookingtime {
     right: 25%;
     position: absolute;
     border-radius: 25px;
+}
+
+/* Media queries to maintain good site navigation on smaller screens*/
+
+@media screen and (max-width: 1300px) {
+    .story-left {
+        width: 75%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .story-right {
+        width: 75%;
+        height: auto;
+        margin: 0 auto;
+        position: relative;
+        left: 0%;
+    }
+
+    .video2, .video1 {
+        position: inherit;
+    }
 }
