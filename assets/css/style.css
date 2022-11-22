@@ -146,7 +146,7 @@ footer {
 .food-menu,
 .drinks-menu {
     border: 1px solid black;
-    width: 35%;
+    width: 45%;
 }
 
 th {
@@ -246,7 +246,7 @@ label,
 
 /* Media queries to maintain good site navigation on tablet size screens up to 1300px wide and down*/
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
     .story-left {
         width: 75%;
         height: auto;
@@ -265,6 +265,10 @@ label,
     .video1 {
         position: inherit;
     }
+
+    .food-menu, .drinks-menu {
+    width: 65%;
+    }
 }
 
 /* Media queries to maintain good site navigation on tablet size screens up to 1300px wide and down*/
@@ -277,4 +281,7 @@ label,
         font-size: 100%;
         margin-left: 0%;
     }
+    .food-menu, .drinks-menu {
+        width: 95%;
+        }
 }
