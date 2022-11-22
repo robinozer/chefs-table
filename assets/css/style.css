@@ -245,7 +245,7 @@ label,
     border-radius: 25px;
 }
 
-/* Media queries to maintain good site navigation on smaller screens*/
+/* Media queries to maintain good site navigation on tablet size screens up to 1300px wide and down*/
 
 @media screen and (max-width: 1300px) {
     .story-left {
@@ -264,5 +264,18 @@ label,
 
     .video2, .video1 {
         position: inherit;
+    }
+}
+
+/* Media queries to maintain good site navigation on tablet size screens up to 1300px wide and down*/
+
+@media screen and (max-width: 950px) {
+    .navbar {
+        clear: left;
+        float: left;
+        margin-left: 2%;
+        margin-bottom: 2%;
+        line-height: 25px;
+        font-size: 90%;
     }
 }
