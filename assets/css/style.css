@@ -266,22 +266,33 @@ label,
         position: inherit;
     }
 
-    .food-menu, .drinks-menu {
-    width: 65%;
+    .food-menu,
+    .drinks-menu {
+        width: 65%;
     }
 }
 
 /* Media queries to maintain good site navigation on tablet size screens up to 1300px wide and down*/
 
 @media screen and (max-width: 650px) {
-    .navbar {
-        clear: both;
-        float: left;
-        line-height: 20px;
-        font-size: 100%;
-        margin-left: 0%;
+    .navbar li {
+        float: none;
     }
-    .food-menu, .drinks-menu {
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar {   
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        padding-left: 2%;
+     }
+
+    .food-menu,
+    .drinks-menu {
         width: 95%;
-        }
+    }
 }
