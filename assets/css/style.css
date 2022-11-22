@@ -223,3 +223,24 @@ label, .bookingtime {
 .submitbutton {
     width: 10%;
 }
+
+/* Booking confirmation redirect page, styling the text on top of the hero image */
+
+.confirmationtext, .confirmationtext h2, confirmationtext h3 {
+    color: #fff;
+}
+
+.confirmationtext {
+    font-size: 100%;    
+    font-family: "Libre Franklin", sans-serif;
+    width: 35%;
+    height: 35%;
+    padding-top: 1%;
+    padding-left: 1%;
+
+    background-color: rgba(241, 109, 107, .7);
+    position: absolute;
+    bottom: 30px;
+    right: 150px;
+
+}
