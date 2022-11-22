@@ -168,7 +168,6 @@ table {
 
 /* Booking form */
 
-
 input {
     width: 100%;
     padding: 12px 20px;
@@ -182,4 +181,11 @@ input {
     height: 1000px;
     padding: 3%;
     background-color: rgba(208, 173, 128, 0.568);
+    position: relative;
+    left: 10%;
+}
+
+.radio-button {
+    vertical-align: baseline;
+    width: auto;
 }
