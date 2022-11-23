@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&family=Maitree&display=swap');
 
-/* general styling for main elements and logo */
+/* general default styling for main elements and logo */
 * {
     margin: 0;
     padding: 0;
@@ -25,7 +25,7 @@ h2 {
 }
 
 /* navigation menu: pushing the menu to the right,
-giving it an underline when hovered over, and to show which page a user is on */
+giving it an underline when hovered over, and underline to show which page user is on */
 
 .navbar {
     font-family: "Libre Franklin", sans-serif;
@@ -102,7 +102,7 @@ first video to the right and second video to the left of the text */
 }
 
 /* footer: the footer consists of three ul lists. The CSS keeps each in a separate column, 
-with sufficient space between each to be easily legible */
+and in parallell with each other, with sufficient space between each to be easily legible */
 
 footer {
     height: 125px;
@@ -146,12 +146,12 @@ footer {
     padding-top: 1%;
 }
 
-/* food and drinks menus: CSS to add sufficient padding around the menu items so that 
-the relationship between menu item and price is plain to the eye, without having to underline the rows */
+/* food and drinks menus: CSS adds sufficient padding around the menu items to distinguish different parts of the menu. This is also to clarify 
+the relationship between each menu item and its price, such that it is plain to the eye, without having to underline the rows */
 
 .food-menu,
 .drinks-menu {
-    border: 1px solid black;
+    border: 1px solid #000000;
     width: 45%;
 }
 
@@ -172,15 +172,16 @@ table {
     margin: 2%;
 }
 
-/* Booking form: CSS to make it responsive to all screen sizes.
-note: input margins are in px instead of percentages by design for responsiveness purposes */
+/* Booking form: CSS makes the form responsive to all screen sizes.
+note: input margins are in px instead of percentages by design for responsiveness purposes.
+Css also aligns the form elements, esp. radio buttons, in a concise way. */
 
 input {
     width: 100%;
     padding: 1%;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 2px solid grey;
+    border: 2px solid #808080;
     font-family: "Libre Franklin", sans-serif;
     font-size: 16px;
 }
@@ -206,7 +207,7 @@ input {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 2px solid grey;
+    border: 2px solid #808080;
     font-family: "Libre Franklin", sans-serif;
     font-size: 16px;
 }
@@ -231,7 +232,7 @@ label,
     width: 10%;
 }
 
-/* Booking confirmation redirect page: style for the text on top of the hero image */
+/* Booking confirmation redirect page: css adds the confirmation text in a box on top of the hero image for large screen sizes */
 
 .confirmationtext h2,
 .confirmationtext h3 {
@@ -242,9 +243,9 @@ label,
     font-size: 100%;
     font-family: "Libre Franklin", sans-serif;
     color: #000000;
-    width: 45%;
     height: auto;
-    background-color: rgba(246, 241, 241, 0.7);
+    background-color: #f6f1f1b3;
+    width: 45%;
     bottom: 60%;
     right: 25%;
     position: absolute;
@@ -295,7 +296,8 @@ label,
 }
 
 /* Media queries to maintain user friendly site navigation
- on mobile size screens up to 450px wide and down*/
+ on mobile size screens up to 450px wide and down, e.g. making
+ embedded videos responsive and moving navbar menu items below the logo */
 
 @media screen and (max-width: 450px) {
     .navbar li {
@@ -311,7 +313,8 @@ label,
         width: 100%;
     }
 
-    .video1, .video2 {
+    .video1,
+    .video2 {
         width: 100%;
     }
 
@@ -325,7 +328,7 @@ label,
     .food-menu,
     .drinks-menu {
         width: 95%;
-    }  
+    }
 
     footer li {
         font-size: 70%;
@@ -359,4 +362,14 @@ label,
         width: 25%;
     }
 
+    .confirmation-footer {
+        position: absolute;
+    }
+
+    .confirmationtext {
+        font-size: 80%;
+        font-family: "Libre Franklin", sans-serif;
+        background-color: #f6f1f1b3;
+        border-radius: 25px;
+    }
 }
