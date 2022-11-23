@@ -101,10 +101,6 @@ first video to the right and second video to the left of the text */
     right: 50%;
 }
 
-iframe {
-    width: 550px;
-}
-
 /* footer: the footer consists of three ul lists. The CSS keeps each in a separate column, 
 with sufficient space between each to be easily legible */
 
@@ -293,10 +289,6 @@ label,
         bottom: 2%;
     }
 
-    iframe {
-        width: 600px;
-    }
-
     .submitbutton {
         width: 20%;
     }
@@ -315,6 +307,14 @@ label,
         flex-direction: column;
     }
 
+    iframe {
+        width: 100%;
+    }
+
+    .video1, .video2 {
+        width: 100%;
+    }
+
     .navbar {
         display: flex;
         flex-direction: row-reverse;
@@ -325,13 +325,7 @@ label,
     .food-menu,
     .drinks-menu {
         width: 95%;
-    }
-
-    .video1,
-    .video1 {
-        height: fit-content;
-        width: fit-content;
-    }
+    }  
 
     footer li {
         font-size: 70%;
@@ -359,10 +353,6 @@ label,
         width: 33%;
         float: right;
         padding-top: 1%;
-    }
-
-    iframe {
-        width: 360px;
     }
 
     .submitbutton {
