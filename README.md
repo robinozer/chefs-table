@@ -8,7 +8,7 @@ il pomodorino is an Italian restaurant run by chefs Massimo Bottura and Fabio Vi
 
 ### Existing Features
 
-- __Header with Navigation Bar__
+__Header with Navigation Bar__
 
 -	The header contains the restaurant logo and a navigation menu linking to each page on the website: Home, Menu and Book a table. The restaurant logo also has a link to the Home page.
 -	The header is identical on all pages for good UX, however for small screens (mobile) the navbar aligns underneath the logo while maintaining the same styling and functionality.
@@ -17,29 +17,28 @@ il pomodorino is an Italian restaurant run by chefs Massimo Bottura and Fabio Vi
 
 ![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
 
-- __The landing page image__
+ __The landing page image__
 
- -	The hero image stretching the width of the screen is present on all pages
--	The image gives the visitor an impression of the food served, connects to the restaurant name (pomodorino is small tomato in Italian) as well as gives the visitor a place to rest their eyes from reading text.
+ -	The hero image stretching the width of the screen is present on all pages. The image gives the visitor an impression of the food served, connects to the restaurant name (pomodorino is small tomato in Italian) as well as gives the visitor a place to rest their eyes from reading text.
 -	On all pages, the page main content is below the hero image, except for the confirmation.html page (redirected to when submitting the booking form). On this page, there is a text overlay on the hero image, containing the confirmation message. Below the hero image is the footer.
 
 ![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
-- __Our food Section__
+__Our food Section__
 
  -	This section gives visitors who are interested in the cuisinge some background information to read, as well as an embedded YouTube video to watch about Southern Italy
  -	The visitor´s interest will be peaked at this point, inviting it to find out more about the food.
 
 ![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
-- __Our chefs section__
+__Our chefs section__
 
  - 	This section provides short profiles on the two chefs, as well as an embedded YouTube video (an profile interview conducted by BBC about one of the chefs).
     - The video provides a break from reading and will increase interest in the chefs behind the restaurant. 
 
 ![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 
-- __The Footer__ 
+__The Footer__ 
 
 - 	The footer is divided into three columns for easy navigation, and provides the user with contact details to the restaurant in the form of phone number, e-mail address and a physical address. 
 - 	The second column has opening hours to the restaurant.
@@ -49,7 +48,7 @@ il pomodorino is an Italian restaurant run by chefs Massimo Bottura and Fabio Vi
 
 ![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
-- __Menu__
+__Menu__
 
   - The menu provides the visitor with a real-time screenshot of what options ara available at the restaurant. The visitor will get a clear idea about the food and drinks on offer, and be able to decide if they might like the food, which will aid him or her in making a decision about visiting the restaurant or not.
   - The menu also shows the prices of the menu items, which is useful for the user as he or she will be able to make a decision about whether or not the restaurant is within price-range. The user can also put together a hypothetical meal in their mind and calculate how much a visit to the restaurant might cost. This also contributes to the decision making process.
