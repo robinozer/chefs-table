@@ -287,9 +287,12 @@ label,
         width: 600px;
     }
 
+    .submitbutton {
+        width: 20%;
+    }
 }
 
-/* Media queries to maintain good site navigation on mobile size screens up to 650px wide and down*/
+/* Media queries to maintain good site navigation on mobile size screens up to 450px wide and down*/
 
 @media screen and (max-width: 450px) {
     .navbar li {
@@ -347,5 +350,9 @@ label,
 
     iframe {
         width: 360px;
+    }
+
+    .submitbutton {
+        width: 25%;
     }
 }
