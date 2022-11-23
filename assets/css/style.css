@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&family=Maitree&display=swap');
 
+/* general styling for main elements and logo */
 * {
     margin: 0;
     padding: 0;
@@ -23,7 +24,8 @@ h2 {
     margin-left: 2%;
 }
 
-/* navigation menu: pushing the menu to the right, giving it an underline when hovered over and to show which page user is on */
+/* navigation menu: pushing the menu to the right,
+giving it an underline when hovered over, and to show which page a user is on */
 
 .navbar {
     font-family: "Libre Franklin", sans-serif;
@@ -254,7 +256,8 @@ label,
     border-radius: 25px;
 }
 
-/* Media queries to maintain user friendly site navigation on tablet screens up to 1280px wide and down*/
+/* Media queries to maintain user friendly site navigation
+ on tablet screens up to 1280px wide and down*/
 
 @media screen and (max-width: 1280px) {
     .story-left {
@@ -300,7 +303,8 @@ label,
     }
 }
 
-/* Media queries to maintain user friendly site navigation on mobile size screens up to 450px wide and down*/
+/* Media queries to maintain user friendly site navigation
+ on mobile size screens up to 450px wide and down*/
 
 @media screen and (max-width: 450px) {
     .navbar li {

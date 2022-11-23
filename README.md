@@ -10,42 +10,42 @@ il pomodorino is an Italian restaurant run by chefs Massimo Bottura and Fabio Vi
 
 - __Header with Navigation Bar__
 
-•	The header contains the restaurant logo and a navigation menu linking to each page on the website: Home, Menu and Book a table. The restaurant logo also has a link to the Home page.
-•	The header is identical on all pages for good UX, however for small screens (mobile) the navbar aligns underneath the logo while maintaining the same styling and functionality.
-•	The navbar ensures that the user can navigate and utilize the different pages of the website comfortably, as well as making it possible to keep e.g. the menu and booking pages in separate tabs. In doing this, the user doesn’t have to use the “back” button in case it wants to have another look at the menu or home page while in the middle of a booking.
-•	The header and navbar are fully responsive to enable the user to navigate and explore the website comfortably without having to use the scrollbar.
+-	The header contains the restaurant logo and a navigation menu linking to each page on the website: Home, Menu and Book a table. The restaurant logo also has a link to the Home page.
+-	The header is identical on all pages for good UX, however for small screens (mobile) the navbar aligns underneath the logo while maintaining the same styling and functionality.
+-	The navbar ensures that the user can navigate and utilize the different pages of the website comfortably, as well as making it possible to keep e.g. the menu and booking pages in separate tabs. In doing this, the user doesn’t have to use the “back” button in case it wants to have another look at the menu or home page while in the middle of a booking.
+-	The header and navbar are fully responsive to enable the user to navigate and explore the website comfortably without having to use the scrollbar.
 
 ![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
 
 - __The landing page image__
 
- •	The hero image stretching the width of the screen is present on all pages
-•	The image gives the visitor an impression of the food served, connects to the restaurant name (pomodorino is small tomato in Italian) as well as gives the visitor a place to rest their eyes from reading text.
-•	On all pages, the page main content is below the hero image, except for the confirmation.html page (redirected to when submitting the booking form). On this page, there is a text overlay on the hero image, containing the confirmation message. Below the hero image is the footer.
+ -	The hero image stretching the width of the screen is present on all pages
+-	The image gives the visitor an impression of the food served, connects to the restaurant name (pomodorino is small tomato in Italian) as well as gives the visitor a place to rest their eyes from reading text.
+-	On all pages, the page main content is below the hero image, except for the confirmation.html page (redirected to when submitting the booking form). On this page, there is a text overlay on the hero image, containing the confirmation message. Below the hero image is the footer.
 
 ![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
 - __Our food Section__
 
- •	This section gives visitors who are interested in the cuisinge some background information to read, as well as an embedded YouTube video to watch about Southern Italy
- •	The visitor´s interest will be peaked at this point, inviting it to find out more about the food.
+ -	This section gives visitors who are interested in the cuisinge some background information to read, as well as an embedded YouTube video to watch about Southern Italy
+ -	The visitor´s interest will be peaked at this point, inviting it to find out more about the food.
 
 ![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
 - __Our chefs section__
 
- •	This section provides short profiles on the two chefs, as well as an embedded YouTube video (an profile interview conducted by BBC about one of the chefs).
-•	The video provides a break from reading and will increase interest in the chefs behind the restaurant. 
+ - 	This section provides short profiles on the two chefs, as well as an embedded YouTube video (an profile interview conducted by BBC about one of the chefs).
+    - The video provides a break from reading and will increase interest in the chefs behind the restaurant. 
 
 ![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 
 - __The Footer__ 
 
- •	The footer is divided into three columns for easy navigation, and provides the user with contact details to the restaurant in the form of phone number, e-mail address and a physical address. 
- •	The second column has opening hours to the restaurant.
- •	The third section contains social media icons with respective links to facebook and instagram, as well as a prompt to the user to follow the restaurant. Each link opens to a new tab for smoothness (so the user isn't directed away from the website)
- •	The footer provides the user with all the information it needs to interact with the restaurant, either physically by calling, e-mailing or visiting, or digitally, by browsing their social media content and getting an image of how a visit will look like. 
-  •	The header and footer are present on all three pages for easy access to this information.
+- 	The footer is divided into three columns for easy navigation, and provides the user with contact details to the restaurant in the form of phone number, e-mail address and a physical address. 
+- 	The second column has opening hours to the restaurant.
+- 	The third section contains social media icons with respective links to facebook and instagram, as well as a prompt to the user to follow the restaurant. Each link opens to a new tab for smoothness (so the user isn't directed away from the website)
+ - 	The footer provides the user with all the information it needs to interact with the restaurant, either physically by calling, e-mailing or visiting, or digitally, by browsing their social media content and getting an image of how a visit will look like. 
+  - The header and footer are present on all three pages for easy access to this information.
 
 ![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
