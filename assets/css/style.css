@@ -85,18 +85,18 @@ first video to the right and second video to the left of the text */
 }
 
 .story-left,
-.video1 {
+.video-italy {
     display: inline-block;
     padding: 3%;
 }
 
 .story-right,
-.video2 {
+.video-chef {
     display: inline-block;
     padding: 3%;
 }
 
-.video2 {
+.video-chef {
     position: relative;
     right: 50%;
 }
@@ -168,7 +168,7 @@ table {
     padding-top: 1%;
 }
 
-.ilcibo,
+.il-cibo,
 .bevande {
     margin: 2%;
 }
@@ -187,7 +187,7 @@ input {
     font-size: 16px;
 }
 
-.bookingform {
+.booking-form {
     width: 75%;
     height: auto;
     padding: 3%;
@@ -203,7 +203,7 @@ input {
     margin: 1%;
 }
 
-.messagebox {
+.message-box {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -214,33 +214,33 @@ input {
 }
 
 label,
-.bookingtime {
+.booking-time {
     font-family: "Libre Franklin", sans-serif;
     font-size: 18px;
     color: #000000;
 }
 
-.bookingtitle {
+.booking-title {
     font-family: "Libre Franklin", sans-serif;
     padding-bottom: 2%;
 }
 
-.adultchildren {
+.adult-children {
     width: 10%;
 }
 
-.submitbutton {
+.submit-button {
     width: 10%;
 }
 
 /* Booking confirmation redirect page: css adds the confirmation text in a box on top of the hero image for large screen sizes */
 
-.confirmationtext h2,
-.confirmationtext h3 {
+.confirmation-text h2,
+.confirmation-text h3 {
     padding: 2%;
 }
 
-.confirmationtext {
+.confirmation-text {
     font-size: 100%;
     font-family: "Libre Franklin", sans-serif;
     color: #000000;
@@ -271,8 +271,8 @@ label,
         left: 0%;
     }
 
-    .video2,
-    .video1 {
+    .video-chef,
+    .video-italy {
         position: inherit;
     }
 
@@ -290,7 +290,7 @@ label,
         position: absolute;
     }
 
-    .confirmationtext {
+    .confirmation-text {
         font-size: 80%;
         font-family: "Libre Franklin", sans-serif;
         background-color: #f6f1f1b3;
@@ -302,7 +302,7 @@ label,
         bottom: 0%;
     }
 
-    .submitbutton {
+    .submit-button {
         width: 20%;
     }
 }
@@ -325,8 +325,8 @@ label,
         width: 100%;
     }
 
-    .video1,
-    .video2 {
+    .video-italy,
+    .video-chef {
         width: 100%;
     }
 
@@ -369,7 +369,7 @@ label,
         float: right;
     }
 
-    .submitbutton {
+    .submit-button {
         width: 25%;
     }
 
@@ -377,7 +377,7 @@ label,
         position: absolute;
     }
 
-    .confirmationtext {
+    .confirmation-text {
         font-size: 80%;
         font-family: "Libre Franklin", sans-serif;
         color: #000000;
