@@ -49,20 +49,25 @@ __The Footer__
 
 __The Menu Page__
 
-  - The menu opens in a new page and provides the visitor with a real-time screenshot of what options ara available at the restaurant. The visitor will get a clear idea about the food and drinks on offer, and be able to decide if they might like the food, which will aid them in making a decision about visiting the restaurant or not.
+  - The menu opens in a new page and provides the visitor with a real-time screenshot of what options ara available at the restaurant. There is a menu for food followed by a drinks menu. The food menu has a section each for courses, and the drinks menu is divided has two sections. All sectinos in the menus are indicated by a line break.
+  - The visitor will get a clear idea about the food and drinks on offer, and be able to decide if they might like the food, which will aid them in making a decision about visiting the restaurant or not.
   - The menu also shows the prices of the menu items, which is useful for the user as they will be able to make a decision about whether or not the restaurant is within price-range. The user can also put together a hypothetical meal in their mind and calculate how much a visit to the restaurant might cost. This also contributes to the decision making process.
 
       [SCREENSHOT OF MENU GOES HERE]
 
-- __The Booking Page__
+__The Booking Page__
 
   - The booking page contains a booking form as its main content. The booking form allows the visitor to book a table at the restaurant by entering and submitting the following information: 
-    - name, e-mail address and phone number, 
-    - desired date and time of the booking, 
-    - number of adults and children attending, 
+    - name, e-mail address and phone number (required),
+    - desired date and time of the booking (required),
+    - number of adults and children attending (required), 
     - an optional message to the restaurant (e.g. to specify if the booking is for a birthday celebration).
 
       [SCREENSHOT OF BOOKING FORM GOES HERE]
+
+  __The Confirmation Page__
+  - Once the visitor fills in the required information and submits the form, they are redirected to the confirmation page. This page has the same format and styling as the other pages, with a confirmation message appearing on the hero image (for larger screen sizes). For smaller screen sizes, the message appears below the hero image.
+  - The confirmation message ensures the visitor that the booking form has been successfully submitted, so they can exit the page or continue exploring the other pages if they wish.
 
 ### Features Left to Implement
 
