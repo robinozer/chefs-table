@@ -85,11 +85,24 @@ __The Booking Page__
 
 ## 4. Future features ##
 
-- Another feature idea
+- In the further development of this website, an idea for a feature would be to keep the hero image static on the page wile allowing the page´s main elements to scroll up on top of it. This could make the website feel more interactive. Furthermore, a gallery with pictures and an awards section for the chefs could also be incorporated.
 
 ## 5. Typography and color scheme ##
+All titles and larger text elements (including the logo, navbar, confirmation message, booking form titles and the titles on the Home page texts) were h1-h3 elements, and had the following typography:
+- font-family: "Libre Franklin", sans-serif;
+- letter-spacing: 3px;
+
+The rest of the body elements including the paragraphs on the home page and the menu, as well as the footer, used the following typography:
+- font-family: Maitree, sans-serif;
+
+All text elements were black.
+The overall color scheme is very light: predominantly white and black. Additionally there is light beige and grey touches of color in the booking page.
 
 ## 6. Wireframes ##
+The software Balsamiq was used to create a rough visual for the three main pages of the website, before coding commenced. This helped visualize the end product and created a realistic scope for the project.
+
+![SCREENSHOT OF WIREFRAMES](media/screenshot-wireframe-menu.png)
+![SCREENSHOT OF WIREFRAMES](media/screenshot-wireframe-footer.png)
 
 ## 7. Technology ##
 each skillset used in the application and why. CSS for styling elements, Fontawesome for fonts, gitpod for editing.
