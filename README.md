@@ -131,7 +131,17 @@ mention the W3c validation I’ve done for my html and css code.
 Try to have one user story per page, and put in screenshots
 
 ### 8.3 Fixed bugs ###
-- When creating the booking form, all the form input items were bunched together instead of displaying on a separate line. After trying various methods, I found that this line of code made the error go away.
+- When creating the booking form, all the form input items were bunched together instead of displaying on a separate line. After trying various methods, I found that styling the actual input boxes with the following line of code made the error go away.
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid grey;
+
+The result is as follows. Th
+
 ### 8.4 Supported screens and browsers ###
 mention all screen sizes for which you have tested. Mention specifically that I use the Chrome Simulator in dev tools
 
