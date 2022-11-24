@@ -74,6 +74,7 @@ __The Booking Page__
     - desired date and time of the booking (required),
     - number of adults and children attending (required), 
     - an optional message to the restaurant (e.g. to specify if the booking is for a birthday celebration).
+  - Placeholders were put in place for easier use of the form.
 
  ![SCREENSHOT OF BOOKING FORM](media/screenshot-booking-form.png)
 
@@ -96,16 +97,22 @@ The rest of the body elements including the paragraphs on the home page and the 
 - font-family: Maitree, sans-serif;
 
 All text elements were black.
-The overall color scheme is very light: predominantly white and black. Additionally there is light beige and grey touches of color in the booking page.
+The overall color scheme is very light: predominantly white and black. Additionally there is light beige and grey touches of color in the booking page and as background to the confirmation message.
 
 ## 6. Wireframes ##
-The software Balsamiq was used to create a rough visual for the three main pages of the website, before coding commenced. This helped visualize the end product and created a realistic scope for the project.
+The software Balsamiq was used to create a rough visual for the three main pages of the website, before coding commenced. This helped visualize the end product and created a realistic scope for the project. Below are two of the mockups.
 
 ![SCREENSHOT OF WIREFRAMES](media/screenshot-wireframe-menu.png)
 ![SCREENSHOT OF WIREFRAMES](media/screenshot-wireframe-footer.png)
 
 ## 7. Technology ##
-each skillset used in the application and why. CSS for styling elements, Fontawesome for fonts, gitpod for editing.
+- The wireframing software tool Balsamiq was used to create a visual mockup early on in the project.
+- GitPod was used to write and edit the code, while GitHub was used for deployment and to store a backup copy of the code.
+- The code was written in HTML, and CSS was used for styling the elements.
+- Google Fonts was used to import the fonts used on the website.
+- FontAwesome was used for importing icons used in the footer.
+- W3C validator was used for finding errors in the code throughout the project and improving quality.
+- Chrome Dev tools was used for responsivity, testing CSS rules and exploring ways of managing bugs in the code.
 
 ## 8. Testing ##
 Test planning, test , test execution
@@ -124,7 +131,7 @@ mention the W3c validation I’ve done for my html and css code.
 Try to have one user story per page, and put in screenshots
 
 ### 8.3 Fixed bugs ###
-
+- When creating the booking form, all the form input items were bunched together instead of displaying on a separate line. After trying various methods, I found that this line of code made the error go away.
 ### 8.4 Supported screens and browsers ###
 mention all screen sizes for which you have tested. Mention specifically that I use the Chrome Simulator in dev tools
 
