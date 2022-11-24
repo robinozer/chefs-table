@@ -26,26 +26,26 @@ __Header with Navigation Bar__
 -	The navbar ensures that the user can navigate and utilize the different pages of the website comfortably, as well as making it possible to keep e.g. the menu and booking pages in separate tabs. In doing this, the user doesn’t have to use the “back” button in case it wants to have another look at the menu or home page while in the middle of a booking.
 -	The header and navbar are fully responsive to enable the user to navigate and explore the website comfortably without having to use the scrollbar. They are present on all pages.
 
-![SCREENSHOT OF RESPONSIVE SCREENS](media/screenshot-header.png)
+![SCREENSHOT OF HEADER AND NAVBAR](media/screenshot-header.png)
 
- __The landing page image__
+ __The hero image__
 
  -	The hero image stretching the width of the screen is present on all pages. The image gives the visitor an impression of the food served, connects to the restaurant name (pomodorino is small tomato in Italian) as well as gives the visitor a place to rest their eyes from reading text.
 -	On all pages, the page main content is below the hero image, except for the confirmation.html page (redirected to when submitting the booking form). On this page, there is a text overlay on the hero image, containing the confirmation message. On smaller screen sizes however, the confirmation message shows below the hero image.
 
-![SCREENSHOT OF RESPONSIVE SCREENS](media/screenshot-hero-image.png)
+![SCREENSHOT OF HERO IMAGE](media/screenshot-hero-image.png)
 
-__Our food Section__
+__Our story Section__
 
  -	This section gives visitors who are interested in the cuisinge some background information to read, as well as an embedded YouTube video to watch about Southern Italy
  -	The visitor´s interest will be peaked at this point, inviting it to find out more about the food.
 
-      [SCREENSHOT OF OUR STORY AND VID GOES HERE]
+![SCREENSHOT OF OUR STORY](media/screenshot-our-story.png)
 
 __Our chefs section__
 
  - 	This section provides short profiles on the two chefs, as well as an embedded YouTube video (an profile interview conducted by BBC about one of the chefs).
-    - The video provides a break from reading and will increase interest in the chefs behind the restaurant. 
+ - The video provides a break from reading and will increase interest in the chefs behind the restaurant. 
 
       [SCREENSHOT OF OUR CHEFS AND VID GOES HERE]
 
