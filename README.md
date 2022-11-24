@@ -1,70 +1,68 @@
 # Chef's Table: il pomodorino - rustic trattoria in Edinburgh #
 il pomodorino is an Italian restaurant run by chefs Massimo Bottura and Fabio Vivani. The website is part of the restaurant´s digital marketing strategy, targeting local foodies and tourists in the Edinburgh area who are looking for a genuine experience of rustic Italian cuisine. The website helps visitors get familiar with the philosophy behind the food of the restaurant by introducing them to the chefs on the Home page. The two other pages show the menu, and a booking form through which visitors can book a table at the restaurant.
 
-/workspace/chefs-table/media/screenshot-responsivity.png
+      [SCREENSHOT OF RESPONSIVE SCREENS GOES HERE]
 
 ## Features ##
 
-
-### Existing Features
+### Existing Features ###
 
 __Header with Navigation Bar__
 
 -	The header contains the restaurant logo and a navigation menu linking to each page on the website: Home, Menu and Book a table. The restaurant logo also has a link to the Home page.
--	The header is identical on all pages for good UX, however for small screens (mobile) the navbar aligns underneath the logo while maintaining the same styling and functionality.
+-	The header bar is identical on all pages for good UX, however for small screens (mobile) the navbar aligns underneath the logo while maintaining the same styling and functionality.
 -	The navbar ensures that the user can navigate and utilize the different pages of the website comfortably, as well as making it possible to keep e.g. the menu and booking pages in separate tabs. In doing this, the user doesn’t have to use the “back” button in case it wants to have another look at the menu or home page while in the middle of a booking.
--	The header and navbar are fully responsive to enable the user to navigate and explore the website comfortably without having to use the scrollbar.
+-	The header and navbar are fully responsive to enable the user to navigate and explore the website comfortably without having to use the scrollbar. They are present on all pages.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+      [SCREENSHOT OF NAVBAR GOES HERE]
 
  __The landing page image__
 
  -	The hero image stretching the width of the screen is present on all pages. The image gives the visitor an impression of the food served, connects to the restaurant name (pomodorino is small tomato in Italian) as well as gives the visitor a place to rest their eyes from reading text.
--	On all pages, the page main content is below the hero image, except for the confirmation.html page (redirected to when submitting the booking form). On this page, there is a text overlay on the hero image, containing the confirmation message. Below the hero image is the footer.
+-	On all pages, the page main content is below the hero image, except for the confirmation.html page (redirected to when submitting the booking form). On this page, there is a text overlay on the hero image, containing the confirmation message. On smaller screen sizes however, the confirmation message shows below the hero image.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+      [SCREENSHOT OF LANDING PAGE GOES HERE]
 
 __Our food Section__
 
  -	This section gives visitors who are interested in the cuisinge some background information to read, as well as an embedded YouTube video to watch about Southern Italy
  -	The visitor´s interest will be peaked at this point, inviting it to find out more about the food.
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+      [SCREENSHOT OF OUR STORY AND VID GOES HERE]
 
 __Our chefs section__
 
  - 	This section provides short profiles on the two chefs, as well as an embedded YouTube video (an profile interview conducted by BBC about one of the chefs).
     - The video provides a break from reading and will increase interest in the chefs behind the restaurant. 
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+      [SCREENSHOT OF OUR CHEFS AND VID GOES HERE]
 
 __The Footer__ 
 
 - 	The footer is divided into three columns for easy navigation, and provides the user with contact details to the restaurant in the form of phone number, e-mail address and a physical address. 
-- 	The second column has opening hours to the restaurant.
+- 	The second column contains opening hours to the restaurant.
 - 	The third section contains social media icons with respective links to facebook and instagram, as well as a prompt to the user to follow the restaurant. Each link opens to a new tab for smoothness (so the user isn't directed away from the website)
  - 	The footer provides the user with all the information it needs to interact with the restaurant, either physically by calling, e-mailing or visiting, or digitally, by browsing their social media content and getting an image of how a visit will look like. 
-  - The header and footer are present on all three pages for easy access to this information.
+  - The footer is present on all pages for easy access to this information.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+      [SCREENSHOT OF FOOTER GOES HERE]
 
-__Menu__
+__The Menu Page__
 
-  - The menu provides the visitor with a real-time screenshot of what options ara available at the restaurant. The visitor will get a clear idea about the food and drinks on offer, and be able to decide if they might like the food, which will aid him or her in making a decision about visiting the restaurant or not.
-  - The menu also shows the prices of the menu items, which is useful for the user as he or she will be able to make a decision about whether or not the restaurant is within price-range. The user can also put together a hypothetical meal in their mind and calculate how much a visit to the restaurant might cost. This also contributes to the decision making process.
+  - The menu opens in a new page and provides the visitor with a real-time screenshot of what options ara available at the restaurant. The visitor will get a clear idea about the food and drinks on offer, and be able to decide if they might like the food, which will aid them in making a decision about visiting the restaurant or not.
+  - The menu also shows the prices of the menu items, which is useful for the user as they will be able to make a decision about whether or not the restaurant is within price-range. The user can also put together a hypothetical meal in their mind and calculate how much a visit to the restaurant might cost. This also contributes to the decision making process.
 
+      [SCREENSHOT OF MENU GOES HERE]
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+- __The Booking Page__
 
-- __The Sign Up Page__
+  - The booking page contains a booking form as its main content. The booking form allows the visitor to book a table at the restaurant by entering and submitting the following information: 
+    - name, e-mail address and phone number, 
+    - desired date and time of the booking, 
+    - number of adults and children attending, 
+    - an optional message to the restaurant (e.g. to specify if the booking is for a birthday celebration).
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+      [SCREENSHOT OF BOOKING FORM GOES HERE]
 
 ### Features Left to Implement
 
