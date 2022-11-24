@@ -3,7 +3,7 @@
 ## 1. Purpose of the project ##
 il pomodorino is an Italian restaurant run by chefs Massimo Bottura and Fabio Vivani. The website is part of the restaurant´s digital marketing strategy, targeting local foodies and tourists in the Edinburgh area who are looking for a genuine experience of rustic Italian cuisine. The website helps visitors get familiar with the philosophy behind the food of the restaurant by introducing them to the chefs on the Home page. The two other pages show the menu, and a booking form through which visitors can book a table at the restaurant.
 
-      ![SCREENSHOT OF RESPONSIVE SCREENS](media/screenshot-responsivity.png)
+![SCREENSHOT OF RESPONSIVE SCREENS](media/screenshot-responsivity.png)
 
 ## 2. User stories ##
 
