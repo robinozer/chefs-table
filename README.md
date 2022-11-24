@@ -1,9 +1,23 @@
 # Chef's Table: il pomodorino - rustic trattoria in Edinburgh #
+
+## 1. Purpose of the project ##
 il pomodorino is an Italian restaurant run by chefs Massimo Bottura and Fabio Vivani. The website is part of the restaurant´s digital marketing strategy, targeting local foodies and tourists in the Edinburgh area who are looking for a genuine experience of rustic Italian cuisine. The website helps visitors get familiar with the philosophy behind the food of the restaurant by introducing them to the chefs on the Home page. The two other pages show the menu, and a booking form through which visitors can book a table at the restaurant.
 
       [SCREENSHOT OF RESPONSIVE SCREENS GOES HERE]
 
-## Features ##
+## 2. User stories ##
+
+__Home page__
+- As a visiting user, I want to read about the type of cuisine the restaurant offers so that I can see if it interests me.
+
+__Menu Page__
+- As a visiting user, I want to read the menu to see if I might be interested in eating the restaurant´s food.
+
+__Booking Page__
+- As a visiting user, I want to book a table for visiting the restaurant.
+
+
+## 3. Features ##
 
 ### Existing Features ###
 
@@ -69,11 +83,33 @@ __The Booking Page__
   - Once the visitor fills in the required information and submits the form, they are redirected to the confirmation page. This page has the same format and styling as the other pages, with a confirmation message appearing on the hero image (for larger screen sizes). For smaller screen sizes, the message appears below the hero image.
   - The confirmation message ensures the visitor that the booking form has been successfully submitted, so they can exit the page or continue exploring the other pages if they wish.
 
-### Features Left to Implement
+## 4. Future features ##
 
 - Another feature idea
 
-## Testing 
+## 5. Typography and color scheme ##
+
+## 6. Wireframes ##
+
+## 7. Technology ##
+
+## 8. Testing ##
+
+### 8.1 Code validation ###
+
+### 8.2 Test cases ###
+
+### 8.3 Fixed bugs ###
+
+### 8.4 Supported screens and browsers ###
+
+## 9. Deployment ##
+
+### 9.1 Via GitPod ###
+
+### 9.2 Via GitHub Pages ###
+
+## 10. Credits ##
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
