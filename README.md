@@ -40,14 +40,14 @@ __Our story Section__
  -	This section gives visitors who are interested in the cuisinge some background information to read, as well as an embedded YouTube video to watch about Southern Italy
  -	The visitor´s interest will be peaked at this point, inviting it to find out more about the food.
 
-![SCREENSHOT OF OUR STORY](media/screenshot-our-story.png)
+![SCREENSHOT OF OUR STORY SECTION](media/screenshot-our-story.png)
 
 __Our chefs section__
 
  - 	This section provides short profiles on the two chefs, as well as an embedded YouTube video (an profile interview conducted by BBC about one of the chefs).
  - The video provides a break from reading and will increase interest in the chefs behind the restaurant. 
 
-      [SCREENSHOT OF OUR CHEFS AND VID GOES HERE]
+![SCREENSHOT OF OUR CHEFS SECTION](media/screenshot-our-chefs.png)
 
 __The Footer__ 
 
@@ -57,7 +57,7 @@ __The Footer__
  - 	The footer provides the user with all the information it needs to interact with the restaurant, either physically by calling, e-mailing or visiting, or digitally, by browsing their social media content and getting an image of how a visit will look like. 
   - The footer is present on all pages for easy access to this information.
 
-      [SCREENSHOT OF FOOTER GOES HERE]
+![SCREENSHOT OF FOOTER](media/screenshot-footer.png)
 
 __The Menu Page__
 
@@ -65,7 +65,7 @@ __The Menu Page__
   - The visitor will get a clear idea about the food and drinks on offer, and be able to decide if they might like the food, which will aid them in making a decision about visiting the restaurant or not.
   - The menu also shows the prices of the menu items, which is useful for the user as they will be able to make a decision about whether or not the restaurant is within price-range. The user can also put together a hypothetical meal in their mind and calculate how much a visit to the restaurant might cost. This also contributes to the decision making process.
 
-      [SCREENSHOT OF MENU GOES HERE]
+![SCREENSHOT OF MENU](media/screenshot-menu.png)
 
 __The Booking Page__
 
@@ -75,11 +75,13 @@ __The Booking Page__
     - number of adults and children attending (required), 
     - an optional message to the restaurant (e.g. to specify if the booking is for a birthday celebration).
 
-      [SCREENSHOT OF BOOKING FORM GOES HERE]
+ ![SCREENSHOT OF BOOKING FORM](media/screenshot-booking-form.png)
 
   __The Confirmation Page__
   - Once the visitor fills in the required information and submits the form, they are redirected to the confirmation page. This page has the same format and styling as the other pages, with a confirmation message appearing on the hero image (for larger screen sizes). For smaller screen sizes, the message appears below the hero image.
   - The confirmation message ensures the visitor that the booking form has been successfully submitted, so they can exit the page or continue exploring the other pages if they wish.
+
+  ![SCREENSHOT OF CONFIRMATION PAGE](media/screenshot-confirmation.png)
 
 ## 4. Future features ##
 
