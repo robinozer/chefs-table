@@ -113,6 +113,8 @@ The software Balsamiq was used to create a rough visual for the three main pages
 - FontAwesome was used for importing icons used in the footer.
 - W3C validator was used for finding errors in the code throughout the project and improving quality.
 - Chrome Dev tools was used for responsivity, testing CSS rules and exploring ways of managing bugs in the code.
+- Website [https://tinyjpg.com/] to compress hero image without losing image quality.
+- Website web.dev (part of Chrome Dev tools) was used to measure site performance, accessibility, SEO and best practice.
 
 ## 8. Testing ##
 Test planning, test , test execution
