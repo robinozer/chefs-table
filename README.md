@@ -133,39 +133,42 @@ mention the W3c validation I’ve done for my html and css code.
 Try to have one user story per page, and put in screenshots
 
 ### 8.3 Fixed bugs ###
-- Bug 1: When creating the booking form, all the form input items were bunched together instead of each displaying on a separate line. After trying various methods, I found that styling the actual input boxes with the following line of code made the error go away.
 
-input {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 2px solid grey;
+#### Bug 1 ####
+When creating the booking form, all the form input items were bunched together instead of each displaying on a separate line. After trying various methods, I found that styling the actual input boxes with the following line of code made the error go away.
+
+**input {**
+**width: 100%;**
+**padding: 12px 20px;**
+**margin: 8px 0;**
+**box-sizing: border-box;**
+**border: 2px solid grey}**
 
 The result was as follows:
 
 ![SCREENSHOT OF BOOKING FORM BUG](media/booking-form-bug.png)
 
-Showing two additional issues: the "Message to us" section was not aligned underneath the radio buttons, and the radio buttons were too far separated from their text.
+This created two additional issues: the "Message to us" section was not aligned underneath the radio buttons, and the radio buttons were too far separated from their text.
 Adding line breaks fixed the message box issue, and the radio buttons needed the following styling to align properly:
 
-.radio-button {
-    vertical-align: baseline;
-    width: auto;
-    margin: 1%;
-}
+**.radio-button {vertical-align: baseline;**
+**width: auto;**
+**margin: 1%;}**
 
-- Bug 2: when creating a media query for mobile size screens, the navbar was supposed to align below the logo. Despite using:
+#### Bug 2 #### 
+When creating a media query for mobile size screens, the navbar was supposed to align below the logo. Despite using:
 
-float: left; clear: left; margin-left: 0%; padding: 0%; margin-bottom: 2%; line-height: 20px;, 
+**.navbar {float: left; clear: left; margin-left: 0%; padding: 0%; margin-bottom: 2%; line-height: 20px;}**
+
+.**class, .navbar {display: inline-block;}**
 
 the header looked like this:
 
  ![SCREENSHOT OF NAVBAR BUG](media/navbar-bug.png)
 
  I then tried 
- nav {white-space: nowrap;} and 
- .navbar li {display: inline-block;} 
+ **nav {white-space: nowrap;} and 
+ .navbar li {display: inline-block;}**
  to keep the navbar items in one line. That didn't work either. 
  
  Following this, I used the overflow:hidden; attribute in the parent and child list elements. This succeeded in aligning the navbar elements on one line, however the elements were in the wrong order and the page too wide:
@@ -173,12 +176,12 @@ the header looked like this:
  ![SCREENSHOT OF NAVBAR BUG](media/navbar-scroll-bug.png)
 
 Finally, using CSS flexbox, I applied the following code.
-1. Set the float:right property to none for the <li> elements.
+1. Set the **float:right** property to **none** for the <li> elements.
 2. In the CSS: 
-header {display: flex; flex-direction: column;}
-3. .navbar {display: flex; flex-direction: row-reverse; justify-content: flex-end;}
+**header {display: flex; flex-direction: column;}**
+3. **.navbar {display: flex; flex-direction: row-reverse; justify-content: flex-end;}**
 
-The flex-direction re-ordered the elements, and justify-content made sure the elements kept to the left-hand side.
+The **flex-direction** reordered the elements, and **justify-content** made sure the elements kept to the left-hand side.
 
 
 ### 8.4 Supported screens and browsers ###
