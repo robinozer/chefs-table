@@ -211,14 +211,19 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The text for "Our story" on the Home page was taken from: https://michelecarbone.org/italian-cooking-essentials-and-philosophy/
+- The text in the menu was taken from: https://wandervirtually.com/lunch-dinner-navigating-the-italian-restaurant-menu/
+- The wine list on the Menu page was taken from: https://www.italianorchard.com/?page_id=273
+- The CSS code below, used for styling the input boxes and message box in the booking form, was taken from: https://coursera.w3schools.com/css/tryit.asp?filename=trycss_form_padding
+- **width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;**
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- The hero image was taken by (open source) Arjuun Sreekumar on [Pexels]: https://www.pexels.com/sv-se/foto/mat-halsosam-rod-tradgard-2006333/
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
