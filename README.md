@@ -215,10 +215,11 @@ You can break the credits section up into Content and Media, depending on what y
 - The text in the menu was taken from: https://wandervirtually.com/lunch-dinner-navigating-the-italian-restaurant-menu/
 - The wine list on the Menu page was taken from: https://www.italianorchard.com/?page_id=273
 - The CSS code shown below in bold, used for styling the input boxes and message box in the booking form, was taken from: https://coursera.w3schools.com/css/tryit.asp?filename=trycss_form_padding
-**width: 100%;
-padding: 12px 20px;
-margin: 8px 0;
-box-sizing: border-box;**
+
+    **width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;**
 
 ### Media
 
