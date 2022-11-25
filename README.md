@@ -160,29 +160,28 @@ When creating a media query for mobile size screens, the navbar was supposed to 
 
 **.navbar {float: left; clear: left; margin-left: 0%; padding: 0%; margin-bottom: 2%; line-height: 20px;}**
 
-.**class, .navbar {display: inline-block;}**
+.**class, .navbar {display: inline-block;}**,
 
 the header looked like this:
 
  ![SCREENSHOT OF NAVBAR BUG](media/navbar-bug.png)
 
  I then tried 
- **nav {white-space: nowrap;} and 
- .navbar li {display: inline-block;}**
+ **nav {white-space: nowrap;}** and 
+ **.navbar li {display: inline-block;}**
  to keep the navbar items in one line. That didn't work either. 
  
- Following this, I used the overflow:hidden; attribute in the parent and child list elements. This succeeded in aligning the navbar elements on one line, however the elements were in the wrong order and the page too wide:
+ Following this, I used the **overflow:hidden;** attribute in the parent and child list elements. This succeeded in aligning the navbar elements on one line, however the elements were in the wrong order and the page too wide:
 
  ![SCREENSHOT OF NAVBAR BUG](media/navbar-scroll-bug.png)
 
 Finally, using CSS flexbox, I applied the following code.
-1. Set the **float:right** property to **none** for the <li> elements.
+1. Set the **float:right** property to **none** for the list elements.
 2. In the CSS: 
 **header {display: flex; flex-direction: column;}**
 3. **.navbar {display: flex; flex-direction: row-reverse; justify-content: flex-end;}**
 
 The **flex-direction** reordered the elements, and **justify-content** made sure the elements kept to the left-hand side.
-
 
 ### 8.4 Supported screens and browsers ###
 The website is tested for wide screens, with two media queries. One specific to screens up to 1280px, as well as a mobile version with media queries supporting screens up to 450px. Usually a tablet size version might have been present, but the version for screens up tp 1280 px worked well on tablet sizes too, which was why an additional media query was omitted. Chrome Dev Tools simulator was used to test for screen sizes.
