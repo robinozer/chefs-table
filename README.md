@@ -184,7 +184,7 @@ The **flex-direction** reordered the elements, and **justify-content** made sure
 
 ### 8.4 Supported screens and browsers ###
 The website works well on large and wide screens, with support for two additional smaller screen sizes. 
-- One is for screens up to 1280px, in which elements in parallel are shown vertically aligned.
+- One is for screens up to 1280px, in which elements in parallel are shown vertically aligned. The specific px size was used as this was the breaking point where the screen became too small to fit the elements in their regular places.
 - The second supports screens up to 450px (mobile). This has more extensive changes as e.g. the navigation menu in the header changes position (moves to below the logo).
 - An additional tablet size media queriy might have been present, however in testing it turned out that the first media query for screens up tp 1280 px worked well on tablet sizes (including Nest Hub), which was why an additional media query was not included. 
 - Chrome Dev Tools simulator was used to test for the following screen sizes:
@@ -196,7 +196,7 @@ The website works well on large and wide screens, with support for two additiona
     - Surface Pro 7 and Duo
     - Galaxy Fold
     - Nest Hub, Nest Hub Max
-- Since nearly all width/height/margin/padding values were given in percentages, the responsivity of the website as a whole to different screen sizes was facilitated.
+- Nearly all width/height/margin/padding values were given in percentages, which facilitated the responsivity of the website as a whole to different screen sizes.
 - The website works well on Chrome - and although it hasn't been tested specifically for other browsers, the level of responsiveness should allow most modern browsers to use the website with ease.
 
 ## 9. Deployment ##
