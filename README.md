@@ -184,7 +184,11 @@ Finally, using CSS flexbox, I applied the following code.
 The **flex-direction** reordered the elements, and **justify-content** made sure the elements kept to the left-hand side.
 
 ### 8.4 Supported screens and browsers ###
-The website is tested for wide screens, with two media queries. One specific to screens up to 1280px, as well as a mobile version with media queries supporting screens up to 450px. Usually a tablet size version might have been present, but the version for screens up tp 1280 px worked well on tablet sizes too, which was why an additional media query was omitted. Chrome Dev Tools simulator was used to test for screen sizes.
+The website is  for wide screens, with two support for two additional screen sizes. 
+- One is for screens up to 1280px, 
+- The second supports screens up to 450px (mobile).
+- An additional tablet size media queriy might have been present, however in testing it turned out that the first media query for screens up tp 1280 px worked well on tablet sizes (including Nest Hub), which was why an additional media query was not included. 
+- Chrome Dev Tools simulator was used to test for screen sizes.
 
 ## 9. Deployment ##
 
@@ -205,11 +209,7 @@ Github Pages was used to deploy the website. The following steps were used:
 
 ## 10. Credits ##
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
-### Content 
+### Content ###
 
 - The text for "Our story" on the Home page was taken from: https://michelecarbone.org/italian-cooking-essentials-and-philosophy/
 - The text in the menu was taken from: https://wandervirtually.com/lunch-dinner-navigating-the-italian-restaurant-menu/
@@ -221,15 +221,11 @@ You can break the credits section up into Content and Media, depending on what y
     margin: 8px 0;
     box-sizing: border-box;**
 
-### Media
+- The CSS code shown below in bold was used to add spacing and a border in the form element, taken from: https://www.w3schools.com/w3css/w3css_input.asp
 
-- The hero image was taken by (open source) Arjuun Sreekumar on [Pexels]: https://www.pexels.com/sv-se/foto/mat-halsosam-rod-tradgard-2006333/
+    **class="w3-input w3-border-0"**
+
+### Media ###
+
+- The hero image was taken by (open source) Arjuun Sreekumar on [Pexels](https://www.pexels.com/sv-se/foto/)mat-halsosam-rod-tradgard-2006333/
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
