@@ -147,6 +147,10 @@ footer {
     padding-top: 1%;
 }
 
+.footer-follow li {
+    padding-bottom: 3%;
+}
+
 /* food and drinks menus: CSS adds sufficient padding around the menu items to distinguish different parts of the menu. This is also to clarify 
 the relationship between each menu item and its price, such that it is plain to the eye, without having to underline the rows */
 
