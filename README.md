@@ -188,20 +188,20 @@ The website is tested for wide screens, with two media queries. One specific to 
 
 ## 9. Deployment ##
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
-
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
-
 ### 9.1 Via GitPod ###
-how you open gitpod, click the green button in github, opens the workspace,
+The GitHub repository was created using the Code Institute GitPod template:
+https://github.com/Code-Institute-Org/gitpod-full-template
+- Click the link to get to the template. Click “Use this template”.
+- Enter a repository name and a description, make sure the repository is public and then click “Create repository from template”.
+- Click the green GitPod button, wait a moment for the workspace to open.
+- The workspace is ready to be used.
 
 ### 9.2 Via GitHub Pages ###
-the steps I took: select the main branch in pages and it generates a link
+Github Pages was used to deploy the website. The following steps were used:
+- In GitHub, navigate to the repository and find the Settings tab at the top menu.
+- Click on Pages in the left hand Menu.
+- In “Build and deployment”, go to Branch, select main, and save.
+- Wait a moment and refresh the page to find a box with the live URL. The website is now deployed.
 
 ## 10. Credits ##
 
