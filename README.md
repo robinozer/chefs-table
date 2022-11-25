@@ -113,8 +113,8 @@ The software Balsamiq was used to create a rough visual for the three main pages
 - FontAwesome was used for importing icons used in the footer.
 - W3C validator was used for finding errors in the code throughout the project and improving quality.
 - Chrome Dev tools was used for increasing responsivity, testing CSS rules and exploring ways of managing bugs in the code.
-- Website [https://tinyjpg.com/] to compress hero image without losing image quality.
-- Website web.dev (part of Chrome Dev tools) was used to measure site performance, accessibility, SEO and best practice.
+- Website [https://tinyjpg.com/] was used to compress the hero image without losing image quality.
+- PageSpeed Insights of web.dev (part of Chrome Dev tools) was used to measure site performance, accessibility, SEO and best practice.
 
 ## 8. Testing ##
 Test planning, test , test execution
@@ -133,7 +133,7 @@ mention the W3c validation I’ve done for my html and css code.
 Try to have one user story per page, and put in screenshots
 
 ### 8.3 Fixed bugs ###
-- When creating the booking form, all the form input items were bunched together instead of displaying on a separate line. After trying various methods, I found that styling the actual input boxes with the following line of code made the error go away.
+- Bug 1: When creating the booking form, all the form input items were bunched together instead of each displaying on a separate line. After trying various methods, I found that styling the actual input boxes with the following line of code made the error go away.
 
 input {
     width: 100%;
@@ -142,10 +142,22 @@ input {
     box-sizing: border-box;
     border: 2px solid grey;
 
-The result is as follows. Th
+The result was as follows:
+![SCREENSHOT OF BOOKING FORM BUG](media/booking-form-bug.png)
+Showing two additional issues: the "Message to us" section was not aligned underneath the radio buttons, and the radio buttons were too far separated from their text.
+Adding line breaks fixed the message box, and the radio buttons needed the following styling to align properly:
+
+.radio-button {
+    vertical-align: baseline;
+    width: auto;
+    margin: 1%;
+}
+
+- Bug 2: when creating a media query for mobile size screens, the navbar was supposed to align below the logo. It looked like this:
+ ![SCREENSHOT OF NAVBAR BUG](media/navbar-bug.png)
 
 ### 8.4 Supported screens and browsers ###
-mention all screen sizes for which you have tested. Mention specifically that I use the Chrome Simulator in dev tools
+The website is tested for wide screens, with two media queries. One specific to screens up to 1280px, as well as a mobile version with media queries supporting screens up to 450px. Usually a tablet size version might have been present, but the version for screens up tp 1280 px worked well on tablet sizes too, which was why an additional media query was omitted. Chrome Dev Tools simulator was used to test for screen sizes.
 
 ## 9. Deployment ##
 
