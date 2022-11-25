@@ -122,11 +122,10 @@ Input (click to book a page) and expected output (user should be redirectedt o b
 (see recorded sound)
 
 ### 8.1 Code validation ###
-mention the W3c validation I’ve done for my html and css code.
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Frobinozer.github.io%2Fchefs-table%2F)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frobinozer.github.io%2Fchefs-table%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
 
 ### 8.2 Test cases ###
 (user story based with screenshots) : usually done by test engineers, 
@@ -184,11 +183,21 @@ Finally, using CSS flexbox, I applied the following code.
 The **flex-direction** reordered the elements, and **justify-content** made sure the elements kept to the left-hand side.
 
 ### 8.4 Supported screens and browsers ###
-The website is  for wide screens, with two support for two additional screen sizes. 
-- One is for screens up to 1280px, 
-- The second supports screens up to 450px (mobile).
+The website works well on large and wide screens, with support for two additional smaller screen sizes. 
+- One is for screens up to 1280px, in which elements in parallel are shown vertically aligned.
+- The second supports screens up to 450px (mobile). This has more extensive changes as e.g. the navigation menu in the header changes position (moves to below the logo).
 - An additional tablet size media queriy might have been present, however in testing it turned out that the first media query for screens up tp 1280 px worked well on tablet sizes (including Nest Hub), which was why an additional media query was not included. 
-- Chrome Dev Tools simulator was used to test for screen sizes.
+- Chrome Dev Tools simulator was used to test for the following screen sizes:
+    - Samsung Galaxy S8, S8+, A51/71
+    - Samsung Galaxy S20 Ultra
+    - iPhone SE, iPhone XR, iPhone 12 Pro 
+    - Pixel 5
+    - iPad Air, iPad Mini
+    - Surface Pro 7 and Duo
+    - Galaxy Fold
+    - Nest Hub, Nest Hub Max
+- Since nearly all width/height/margin/padding values were given in percentages, the responsivity of the website as a whole to different screen sizes was facilitated.
+- The website works well on Chrome - and although it hasn't been tested specifically for other browsers, the level of responsiveness should allow most modern browsers to use the website with ease.
 
 ## 9. Deployment ##
 
