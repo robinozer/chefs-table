@@ -39,7 +39,7 @@ __Header with Navigation Bar__
 
 __Our story Section__
 
- -	This section gives visitors who are interested in the cuisinge some background information to read, as well as an embedded YouTube video to watch about Southern Italy
+ -	This section gives visitors who are interested in the cuisine some background information to read, as well as an embedded YouTube video to watch about Southern Italy
  -	The visitor's interest will be peaked at this point, inviting it to find out more about the food.
 
 ![SCREENSHOT OF OUR STORY SECTION](media/screenshot-our-story.png)
@@ -55,15 +55,15 @@ __The Footer__
 
 - 	The footer is divided into three columns for easy navigation, and provides the user with contact details to the restaurant in the form of phone number, e-mail address and a physical address. 
 - 	The second column contains opening hours to the restaurant.
-- 	The third section contains social media icons with respective links to facebook and instagram, as well as a prompt to the user to follow the restaurant. Each link opens to a new tab for smoothness (so the user isn't directed away from the website)
- - 	The footer provides the user with all the information it needs to interact with the restaurant, either physically by calling, e-mailing or visiting, or digitally, by browsing their social media content and getting an image of how a visit will look like. 
-  - The footer is present on all pages for easy access to this information.
+- 	The third section contains social media icons with respective links to Facebook and Instagram, as well as a prompt to the user to follow the restaurant. Each link opens to a new tab for ease of use (so the user isn't directed away from the website)
+ - 	The footer provides the user with all the information it needs to interact with the restaurant, either physically by calling, e-mailing or visiting, or digitally, by browsing their social media content and getting an image of how a visit will look like.
+ - The footer is present on all pages for easy access to this information.
 
 ![SCREENSHOT OF FOOTER](media/screenshot-footer.png)
 
 __The Menu Page__
 
-  - The menu opens in a new page and provides the visitor with a real-time screenshot of what options ara available at the restaurant. There is a menu for food followed by a drinks menu. The food menu has a section each for courses, and the drinks menu is divided has two sections. All sectinos in the menus are indicated by a line break.
+  - The menu opens in a new page and provides the visitor with a real-time screenshot of what options are available at the restaurant. There is a menu for food followed by a drinks menu. The food menu has a section each for courses, and the drinks menu is divided has two sections (note: not the element 'section'). All sections in the menus are indicated by a line break.
   - The visitor will get a clear idea about the food and drinks on offer, and be able to decide if they might like the food, which will aid them in making a decision about visiting the restaurant or not.
   - The menu also shows the prices of the menu items, which is useful for the user as they will be able to make a decision about whether or not the restaurant is within price-range. The user can also put together a hypothetical meal in their mind and calculate how much a visit to the restaurant might cost. This also contributes to the decision making process.
 
@@ -88,7 +88,7 @@ __The Booking Page__
 
 ## 4. Future features ##
 
-- In the further development of this website, an idea for a feature would be to keep the hero image static on the page wile allowing the page's main elements to scroll up on top of it. This could make the website feel more interactive. Furthermore, a gallery with pictures and an awards section for the chefs could also be incorporated.
+- In the further development of this website, an idea for a feature would be to keep the hero image static on the page while allowing the page's main elements to scroll up on top of it. This could make the website feel more interactive. Furthermore, a gallery with pictures and an awards section for the chefs could also be incorporated.
 
 ## 5. Typography and color scheme ##
 All titles and larger text elements (including the logo, navbar, confirmation message, booking form titles and the titles on the Home page texts) were h1-h3 elements, and had the following typography:
@@ -109,7 +109,7 @@ The software Balsamiq was used to create a rough visual for the three main pages
 
 ## 7. Technology ##
 - The wireframing software tool Balsamiq was used to create a visual mockup early on in the project.
-- GitPod was used to write and edit the code, while GitHub was used for deployment and to store a backup copy of the code.
+- GitPod was used to write and edit the code, while GitHub was used for deployment and version control.
 - The code was written in HTML, and CSS was used for styling the elements.
 - Google Fonts was used to import the fonts used on the website.
 - FontAwesome was used for importing icons used in the footer.
@@ -156,6 +156,8 @@ Test Steps:
 
 Expected Result: Redirect to Home page and load content.
 
+Test passed.
+
 #### Title: Menu Page – Access the restaurant's menu ####
 
 Description: A visiting user should be able to successfully view the restaurant's menu.
@@ -173,6 +175,8 @@ Test Steps:
 3. The user should notice the header, hero image as well as the menu for the restaurant.
 
 Expected Result: Redirect to Menu page displaying the same header, footer and hero image as the Home page, with the restaurant's menu displaying below the hero image.
+
+Test passed.
 
 #### Title: Booking Page – Book a table at the restaurant ####
 
@@ -192,11 +196,13 @@ Test Steps:
 
 Expected Result: Redirect to Booking page displaying the same header, footer and hero image as the Home page, with the restaurant's booking form displaying below the hero image.
 
+Test passed.
+
 #### Title: Confirmation Page – Confirm table booking at the restaurant ####
 
 Description: A visiting user should be able to successfully get a booking confirmation after filling in the booking form.
 
-Precondition: the user needs to be present on the Booking page, and fill in the booking form on the booking page correcly.
+Precondition: the user needs to be present on the Booking page, and fill in the booking form on the booking page correctly.
 
 Assumption: the visiting user is using a supported browser with existing internet connection.
 
@@ -210,6 +216,8 @@ Test Steps:
 3. The user should notice the header, hero image as well as the confirmation message.
 
 Expected Result: Redirect to Confirmation page displaying the same header, footer and hero image as the Home page, with a booking confirmation message on top of the hero image or below it (depending on screen size).
+
+Test passed.
 
 ### 8.3 Fixed bugs ###
 
@@ -266,7 +274,7 @@ The **flex-direction** reordered the elements, and **justify-content** made sure
 The website works well on large and wide screens, with support for two additional smaller screen sizes. 
 - One is for screens up to 1280px, in which elements in parallel are shown vertically aligned. The specific px size was used as this was the breaking point where the screen became too small to fit the elements in their regular places.
 - The second supports screens up to 450px (mobile). This has more extensive changes as e.g. the navigation menu in the header changes position (moves to below the logo).
-- An additional tablet size media queriy might have been present, however in testing it turned out that the first media query for screens up tp 1280 px worked well on tablet sizes (including Nest Hub), which was why an additional media query was not included. 
+- An additional tablet size media query might have been present, however in testing it turned out that the first media query for screens up to 1280px worked well on tablet sizes (including Nest Hub), which was why an additional media query was not included. 
 - Chrome Dev Tools simulator was used to test for the following screen sizes:
     - Samsung Galaxy S8, S8+, A51/71
     - Samsung Galaxy S20 Ultra
