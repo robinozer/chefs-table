@@ -11,11 +11,13 @@ __Home page__
 - As a visiting user, I want to read about the type of cuisine the restaurant offers so that I can see if it interests me.
 
 __Menu Page__
-- As a visiting user, I want to read the menu to see if I might be interested in eating the restaurant´s food.
+- As a visiting user, I want to read the menu to see if I want to eat the restaurant´s food.
 
 __Booking Page__
 - As a visiting user, I want to book a table for visiting the restaurant.
 
+__Confirmation Page__
+- As a visiting user, I want to get a booking confirmation so that I can be assured that I have a table at the booked date.
 
 ## 3. Features ##
 
@@ -117,9 +119,6 @@ The software Balsamiq was used to create a rough visual for the three main pages
 - PageSpeed Insights of web.dev (part of Chrome Dev tools) was used to measure site performance, accessibility, SEO and best practice.
 
 ## 8. Testing ##
-Test planning, test , test execution
-Input (click to book a page) and expected output (user should be redirectedt o booking page.
-(see recorded sound)
 
 ### 8.1 Code validation ###
 - HTML
@@ -129,17 +128,21 @@ Input (click to book a page) and expected output (user should be redirectedt o b
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frobinozer.github.io%2Fchefs-table%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
 
-- Additional testing included [PageSpeed Insights part of Chrome Dev tools](https://pagespeed.web.dev/report?url=https%3A%2F%2Frobinozer.github.io%2Fchefs-table%2F&form_factor=desktop) to measure performance, availability, best practice and SEO (respectively). All but performance received high scores for desktop usage. 
+- Additional testing included [PageSpeed Insights part of Chrome Dev tools](https://pagespeed.web.dev/report?url=https%3A%2F%2Frobinozer.github.io%2Fchefs-table%2F&form_factor=mobile) to measure performance, availability, best practice and SEO (respectively). All but performance received high scores for desktop usage. 
 
 ![SCREENSHOT OF DESKTOP SPEED ANALYSIS](media/screenshot-desktop-availability.png)
 
-The analysis showed that the embedded YouTube videos slowed down the website because of JavaScript that was not used. This was a larger problem for mobile version (see image below). However, as JavaScript is outside of the scope of this project, I did not attempt to correct it other than adding loading="lazy" attribute to the iframe element, which improved performance a bit.
+The analysis showed that the embedded YouTube videos slowed down the website (specifically the Home page) because of JavaScript that was not used. This was a larger problem for mobile version (see image below). However, as JavaScript is outside of the scope of this project, I did not attempt to correct it other than adding loading="lazy" attribute to the iframe element, which improved performance a bit. Also, the tool showed varying rates at different points, even when no changes had been made to the website.
 
 ![SCREENSHOT OF MOBILE SPEED ANALYSIS](media/screenshot-mobile-availability.png)
 
 ### 8.2 Test cases ###
 (user story based with screenshots) : usually done by test engineers, 
 Try to have one user story per page, and put in screenshots
+
+Test planning, test , test execution
+Input (click to book a page) and expected output (user should be redirectedt to booking page.
+(see recorded sound)
 
 ### 8.3 Fixed bugs ###
 
