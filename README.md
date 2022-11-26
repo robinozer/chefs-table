@@ -108,6 +108,7 @@ The software Balsamiq was used to create a rough visual for the three main pages
 ![SCREENSHOT OF WIREFRAMES](media/screenshot-wireframe-footer.png)
 
 ## 7. Technology ##
+- The programmin languages HTML5 and CSS3 were used to create and style elements.
 - The wireframing software tool Balsamiq was used to create a visual mockup early on in the project.
 - GitPod was used to write and edit the code, while GitHub was used for deployment and version control.
 - The code was written in HTML, and CSS was used for styling the elements.
