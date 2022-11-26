@@ -160,7 +160,7 @@ Expected Result: A page displaying the main home page of the restaurant and its 
 
 Description: A visiting user should be able to successfully view the restaurant´s menu.
 
-Precondition: the user need to be present on any of the pages of the website already.
+Precondition: the user needs to be present on any of the pages of the website already.
 
 Assumption: the visiting user is using a supported browser with existing internet connection.
 
@@ -172,17 +172,17 @@ Test Steps:
 2. The user should be redirected to the Menu page.
 3. The user should notice the header, hero image as well as the menu for the restaurant.
 
-Expected Result: A page displaying the same header and footer elements as the main page, as well as the same hero image, with restaurant's menu below the hero image.
+Expected Result: Redirect to Booking page displaying the same header, footer and hero image as the Home page, with the restaurant's menu below the hero image.
 
 #### Title: Booking Page – Book a table at the restaurant ####
 
 Description: A visiting user should be able to successfully use the booking form to book a table at the restaurant at a desired date.
 
-Precondition: the user need to be present on any of the pages of the website already.
+Precondition: the user needs to be present on any of the pages of the website already.
 
 Assumption: the visiting user is using a supported browser with existing internet connection.
 
-User story to which this test case refers: As a visiting user, I want to read the menu to see if I want to eat the restaurant´s food.
+User story to which this test case refers: As a visiting user, I want to book a table for visiting the restaurant.
 
 Test Steps:
 
@@ -190,10 +190,26 @@ Test Steps:
 2. The user should be redirected to the Booking page.
 3. The user should notice the header, hero image as well as the full booking form.
 
-Expected Result: A page displaying the same header and footer elements as the main page, as well as the same hero image, with restaurant's booking form below the hero image.
+Expected Result: Redirect to Booking page displaying the same header, footer and hero image as the Home page, with the restaurant's booking form below the hero image.
 
-Input (click to book a page) and expected output (user should be redirectedt to booking page.
-(see recorded sound)
+#### Title: Confirmation Page – Confirm table booking at the restaurant ####
+
+Description: A visiting user should be able to successfully get a booking confirmation after filling in the booking form.
+
+Precondition: the user needs to have filled in the booking form on the booking page correcly, and clicked on the submit button.
+
+Assumption: the visiting user is using a supported browser with existing internet connection.
+
+User story to which this test case refers: As a visiting user, I want to get a booking confirmation so that I can be assured that I have a table at the booked date.
+
+Test Steps:
+
+1. In the 'Book a table' page, enter all required information into the form in the correct format (see placeholders for hints).
+2. Click on the Submit button at the bottom of the form.
+3. The user should be redirected to the Confirmation page.
+3. The user should notice the header, hero image as well as the confirmation message.
+
+Expected Result: Redirect to Confirmation page displaying the same header, footer and hero image as the Home page, with a booking confirmation message on top of the hero image or below it (depending on screen size).
 
 ### 8.3 Fixed bugs ###
 
