@@ -72,9 +72,9 @@ __The Menu Page__
 __The Booking Page__
 
   - The booking page contains a booking form as its main content. The booking form allows the visitor to book a table at the restaurant by entering and submitting the following information: 
-    - name, e-mail address and phone number (required),
-    - desired date and time of the booking (required),
-    - number of adults and children attending (required), 
+    - name, e-mail address and phone number (these are required),
+    - desired date and time of the booking (these are required),
+    - number of adults and children attending (these are required), 
     - an optional message to the restaurant (e.g. to specify if the booking is for a birthday celebration).
   - Placeholders were put in place for easier use of the form.
 
@@ -137,10 +137,61 @@ The analysis showed that the embedded YouTube videos slowed down the website (sp
 ![SCREENSHOT OF MOBILE SPEED ANALYSIS](media/screenshot-mobile-availability.png)
 
 ### 8.2 Test cases ###
-(user story based with screenshots) : usually done by test engineers, 
-Try to have one user story per page, and put in screenshots
 
-Test planning, test , test execution
+#### Title: Home Page – Access the restaurant's home page ####
+
+Description: A visiting user should be able to successfully view the restaurant´s home page and play.
+
+Precondition: the user need to be present on either the Home page or the Booking page already.
+
+Assumption: the visiting user is using a supported browser with existing internet connection.
+
+User story to which this test case refers: "As a visiting user, I want to read about the type of cuisine the restaurant offers so that I can see if it interests me."
+
+Test Steps:
+
+1. In a browser, enter the website URL [https://robinozer.github.io/chefs-table/] and click enter.
+2. The user should be directed to the Home page of the restaurant.
+3. The user should notice the header, hero image, main page content (text and video) as well as the footer.
+
+Expected Result: A page displaying the main home page of the restaurant and its contents should load.
+
+#### Title: Menu Page – Access the restaurant's menu ####
+
+Description: A visiting user should be able to successfully view the restaurant´s menu.
+
+Precondition: the user need to be present on any of the pages of the website already.
+
+Assumption: the visiting user is using a supported browser with existing internet connection.
+
+User story to which this test case refers: As a visiting user, I want to read the menu to see if I want to eat the restaurant´s food.
+
+Test Steps:
+
+1. From the Home page, click on 'Menu' in the header navigation bar.
+2. The user should be redirected to the Menu page.
+3. The user should notice the header, hero image as well as the menu for the restaurant.
+
+Expected Result: A page displaying the same header and footer elements as the main page, as well as the same hero image, with restaurant's menu below the hero image.
+
+#### Title: Booking Page – Book a table at the restaurant ####
+
+Description: A visiting user should be able to successfully use the booking form to book a table at the restaurant at a desired date.
+
+Precondition: the user need to be present on any of the pages of the website already.
+
+Assumption: the visiting user is using a supported browser with existing internet connection.
+
+User story to which this test case refers: As a visiting user, I want to read the menu to see if I want to eat the restaurant´s food.
+
+Test Steps:
+
+1. From the Home or Menu page, click on 'Book a table' in the header navigation bar.
+2. The user should be redirected to the Booking page.
+3. The user should notice the header, hero image as well as the full booking form.
+
+Expected Result: A page displaying the same header and footer elements as the main page, as well as the same hero image, with restaurant's booking form below the hero image.
+
 Input (click to book a page) and expected output (user should be redirectedt to booking page.
 (see recorded sound)
 
