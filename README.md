@@ -124,6 +124,7 @@ Input (click to book a page) and expected output (user should be redirectedt o b
 ### 8.1 Code validation ###
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Frobinozer.github.io%2Fchefs-table%2F)
+  *Note: the validator previously showed errors for section elements wrapping the hero image div, as well as both menu forms, since neither of these had a header. For the hero image, I removed the section wrapper. For the menu forms, I replaced the section wrapper with the element aside.
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frobinozer.github.io%2Fchefs-table%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
 
