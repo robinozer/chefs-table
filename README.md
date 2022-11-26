@@ -1,7 +1,7 @@
 # Chef's Table: il pomodorino - rustic trattoria in Edinburgh #
 
 ## 1. Purpose of the project ##
-il pomodorino is an Italian restaurant run by chefs Massimo Bottura and Fabio Vivani. The website is part of the restaurant´s digital marketing strategy, targeting local foodies and tourists in the Edinburgh area who are looking for a genuine experience of rustic Italian cuisine. The website helps visitors get familiar with the philosophy behind the food of the restaurant by introducing them to the chefs on the Home page. The two other pages show the menu, and a booking form through which visitors can book a table at the restaurant.
+il pomodorino is an Italian restaurant run by chefs Massimo Bottura and Fabio Vivani. The website is part of the restaurant's digital marketing strategy, targeting local foodies and tourists in the Edinburgh area who are looking for a genuine experience of rustic Italian cuisine. The website helps visitors get familiar with the philosophy behind the food of the restaurant by introducing them to the chefs on the Home page. The two other pages show the menu, and a booking form through which visitors can book a table at the restaurant.
 
 ![SCREENSHOT OF RESPONSIVE SCREENS](media/screenshot-responsivity.png)
 
@@ -11,7 +11,7 @@ __Home page__
 - As a visiting user, I want to read about the type of cuisine the restaurant offers so that I can see if it interests me.
 
 __Menu Page__
-- As a visiting user, I want to read the menu to see if I want to eat the restaurant´s food.
+- As a visiting user, I want to read the menu to see if I want to eat the restaurant's food.
 
 __Booking Page__
 - As a visiting user, I want to book a table for visiting the restaurant.
@@ -40,7 +40,7 @@ __Header with Navigation Bar__
 __Our story Section__
 
  -	This section gives visitors who are interested in the cuisinge some background information to read, as well as an embedded YouTube video to watch about Southern Italy
- -	The visitor´s interest will be peaked at this point, inviting it to find out more about the food.
+ -	The visitor's interest will be peaked at this point, inviting it to find out more about the food.
 
 ![SCREENSHOT OF OUR STORY SECTION](media/screenshot-our-story.png)
 
@@ -88,7 +88,7 @@ __The Booking Page__
 
 ## 4. Future features ##
 
-- In the further development of this website, an idea for a feature would be to keep the hero image static on the page wile allowing the page´s main elements to scroll up on top of it. This could make the website feel more interactive. Furthermore, a gallery with pictures and an awards section for the chefs could also be incorporated.
+- In the further development of this website, an idea for a feature would be to keep the hero image static on the page wile allowing the page's main elements to scroll up on top of it. This could make the website feel more interactive. Furthermore, a gallery with pictures and an awards section for the chefs could also be incorporated.
 
 ## 5. Typography and color scheme ##
 All titles and larger text elements (including the logo, navbar, confirmation message, booking form titles and the titles on the Home page texts) were h1-h3 elements, and had the following typography:
@@ -140,9 +140,9 @@ The analysis showed that the embedded YouTube videos slowed down the website (sp
 
 #### Title: Home Page – Access the restaurant's home page ####
 
-Description: A visiting user should be able to successfully view the restaurant´s home page and play.
+Description: A visiting user should be able to successfully view the restaurant's home page.
 
-Precondition: the user need to be present on either the Home page or the Booking page already.
+Precondition: access to URL to the website.
 
 Assumption: the visiting user is using a supported browser with existing internet connection.
 
@@ -154,17 +154,17 @@ Test Steps:
 2. The user should be directed to the Home page of the restaurant.
 3. The user should notice the header, hero image, main page content (text and video) as well as the footer.
 
-Expected Result: A page displaying the main home page of the restaurant and its contents should load.
+Expected Result: Redirect to Home page and load content.
 
 #### Title: Menu Page – Access the restaurant's menu ####
 
-Description: A visiting user should be able to successfully view the restaurant´s menu.
+Description: A visiting user should be able to successfully view the restaurant's menu.
 
-Precondition: the user needs to be present on any of the pages of the website already.
+Precondition: the user needs to be present on any of the pages of the website already, or otherwise use a direct link to the menu page of the website.
 
 Assumption: the visiting user is using a supported browser with existing internet connection.
 
-User story to which this test case refers: As a visiting user, I want to read the menu to see if I want to eat the restaurant´s food.
+User story to which this test case refers: As a visiting user, I want to read the menu to see if I want to eat the restaurant's food.
 
 Test Steps:
 
@@ -172,13 +172,13 @@ Test Steps:
 2. The user should be redirected to the Menu page.
 3. The user should notice the header, hero image as well as the menu for the restaurant.
 
-Expected Result: Redirect to Booking page displaying the same header, footer and hero image as the Home page, with the restaurant's menu below the hero image.
+Expected Result: Redirect to Menu page displaying the same header, footer and hero image as the Home page, with the restaurant's menu displaying below the hero image.
 
 #### Title: Booking Page – Book a table at the restaurant ####
 
 Description: A visiting user should be able to successfully use the booking form to book a table at the restaurant at a desired date.
 
-Precondition: the user needs to be present on any of the pages of the website already.
+Precondition: the user needs to be present on any of the pages of the website already, or otherwise use a direct link to the booking page of the website.
 
 Assumption: the visiting user is using a supported browser with existing internet connection.
 
@@ -190,13 +190,13 @@ Test Steps:
 2. The user should be redirected to the Booking page.
 3. The user should notice the header, hero image as well as the full booking form.
 
-Expected Result: Redirect to Booking page displaying the same header, footer and hero image as the Home page, with the restaurant's booking form below the hero image.
+Expected Result: Redirect to Booking page displaying the same header, footer and hero image as the Home page, with the restaurant's booking form displaying below the hero image.
 
 #### Title: Confirmation Page – Confirm table booking at the restaurant ####
 
 Description: A visiting user should be able to successfully get a booking confirmation after filling in the booking form.
 
-Precondition: the user needs to have filled in the booking form on the booking page correcly, and clicked on the submit button.
+Precondition: the user needs to be present on the Booking page, and fill in the booking form on the booking page correcly.
 
 Assumption: the visiting user is using a supported browser with existing internet connection.
 
