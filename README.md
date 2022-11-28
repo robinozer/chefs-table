@@ -125,7 +125,7 @@ The software Balsamiq was used to create a rough visual for the three main pages
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Frobinozer.github.io%2Fchefs-table%2F)
 
-  *Note: the validator previously showed errors for section elements wrapping the hero image div, as well as both menu forms, since neither of these had a header element. To resolve this, I removed the section wrapper for the hero image. For the menu forms, I replaced the section wrapper with the element aside.
+  *Note: the validator previously showed errors for section elements wrapping the hero image div, as well as both menu forms, since neither of these had a header element. To resolve this, I removed the section wrapper for the hero image and kept it as a div. For the menu forms, I replaced the section wrapper with the element aside.
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frobinozer.github.io%2Fchefs-table%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
 
@@ -133,7 +133,7 @@ The software Balsamiq was used to create a rough visual for the three main pages
 
 ![SCREENSHOT OF DESKTOP SPEED ANALYSIS](media/screenshot-desktop-availability.png)
 
-The analysis showed that the embedded YouTube videos slowed down the website (specifically the Home page) because of JavaScript that was not used. This was a larger problem for mobile version (see image below). However, as JavaScript is outside of the scope of this project, I did not attempt to correct it other than adding loading="lazy" attribute to the iframe element, which improved performance a bit. Also, the tool showed varying rates at different points, even when no changes had been made to the website.
+The analysis showed that the embedded YouTube videos slowed down the website (specifically the Home page) because of JavaScript that was not used. This was a larger problem for mobile version (see image below). However, as JavaScript is outside of the scope of this project, I did not attempt to correct it other than adding loading="lazy" attribute to the iframe element, which improved performance a bit. Worth to note is that the tool showed varying performance rates at different points in time, even when no changes had been made to the website code. The screenshots are from the latest measurement.
 
 ![SCREENSHOT OF MOBILE SPEED ANALYSIS](media/screenshot-mobile-availability.png)
 
@@ -158,6 +158,8 @@ Test Steps:
 Expected Result: Redirect to Home page and load content.
 
 Test passed.
+
+![SCREENSHOT OF HOME PAGE TEST CASE ](media/screenshot-mobile-availability.png)
 
 #### Title: Menu Page – Access the restaurant's menu ####
 
