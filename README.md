@@ -159,7 +159,7 @@ Expected Result: Redirect to Home page and load content.
 
 Test passed.
 
-![SCREENSHOT OF HOME PAGE TEST CASE ](media/screenshot-mobile-availability.png)
+![SCREENSHOT OF HOME PAGE TEST CASE ](media/test-case-home.png)
 
 #### Title: Menu Page – Access the restaurant's menu ####
 
@@ -181,6 +181,8 @@ Expected Result: Redirect to Menu page displaying the same header, footer and he
 
 Test passed.
 
+![SCREENSHOT OF MENU PAGE TEST CASE ](media/test-case-menu.png)
+
 #### Title: Booking Page – Book a table at the restaurant ####
 
 Description: A visiting user should be able to successfully use the booking form to book a table at the restaurant at a desired date.
@@ -200,6 +202,8 @@ Test Steps:
 Expected Result: Redirect to Booking page displaying the same header, footer and hero image as the Home page, with the restaurant's booking form displaying below the hero image.
 
 Test passed.
+
+![SCREENSHOT OF BOOKING PAGE TEST CASE ](media/test-case-booking.png)
 
 #### Title: Confirmation Page – Confirm table booking at the restaurant ####
 
@@ -221,6 +225,8 @@ Test Steps:
 Expected Result: Redirect to Confirmation page displaying the same header, footer and hero image as the Home page, with a booking confirmation message on top of the hero image or below it (depending on screen size).
 
 Test passed.
+
+![SCREENSHOT OF CONFIRMATION PAGE TEST CASE ](media/test-case-confirmation.png)
 
 ### 8.3 Fixed bugs ###
 
