@@ -233,12 +233,12 @@ Test passed.
 #### Bug 1 ####
 When creating the booking form, all the form input items were bunched together instead of each displaying on a separate line. After trying various methods, I found that styling the actual input boxes with the following line of code made the error go away.
 
-**input {**
-**width: 100%;**
-**padding: 12px 20px;**
-**margin: 8px 0;**
-**box-sizing: border-box;**
-**border: 2px solid grey}**
+**input {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+border: 2px solid grey}**
 
 The result was as follows:
 
@@ -247,9 +247,9 @@ The result was as follows:
 This created two additional issues: the "Message to us" section was not aligned underneath the radio buttons, and the radio buttons were too far separated from their text.
 Adding line breaks fixed the message box issue, and the radio buttons needed the following styling to align properly:
 
-**.radio-button {vertical-align: baseline;**
-**width: auto;**
-**margin: 1%;}**
+**.radio-button {vertical-align: baseline;
+width: auto;
+margin: 1%;}**
 
 #### Bug 2 #### 
 When creating a media query for mobile size screens, the navbar was supposed to align below the logo. Despite using:
@@ -274,7 +274,7 @@ the header looked like this:
 Finally, using CSS flexbox, I applied the following code.
 1. Set the **float:right** property to **none** for the list elements.
 2. In the CSS: 
-**header {display: flex; flex-direction: column;}**
+**header {display: flex; flex-direction: column;}** and
 3. **.navbar {display: flex; flex-direction: row-reverse; justify-content: flex-end;}**
 
 The **flex-direction** reordered the elements, and **justify-content** made sure the elements kept to the left-hand side.
